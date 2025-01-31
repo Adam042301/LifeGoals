@@ -10,7 +10,7 @@
   background-color: #ebebeb;
   text-color: #000000;
   overflow-x: hidden;
-  padding-top: 32px;
+  padding-top: 10px;
 }
 
 /* Style the sidenav links and the dropdown button */
@@ -18,7 +18,7 @@
   padding: 10px 8px 10px 16px;
   text-decoration: none;
   font-family: sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   color: #000000;
   display: block;
   border: none;
