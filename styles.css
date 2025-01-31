@@ -59,6 +59,18 @@
   font-family: sans-serif;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Optional: Style the caret down icon */
 .fa-caret-down {
   float: right;
