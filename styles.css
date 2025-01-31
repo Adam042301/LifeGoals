@@ -1,7 +1,7 @@
 /* Fixed sidenav, full height */
 .sidenav {
   height: 100%;
-  width: 220px;
+  width: 230px;
   position: fixed;
   font-family: sans-serif;
   z-index: 1;
