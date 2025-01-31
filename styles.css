@@ -6,8 +6,8 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: ebebeb;
-  text-color: 000000;
+  background-color: #ebebeb;
+  text-color: #000000;
   overflow-x: hidden;
   padding-top: 27px;
 }
@@ -17,7 +17,7 @@
   padding: 10px 8px 10px 16px;
   text-decoration: none;
   font-size: 33px;
-  color: 000000;
+  color: #000000;
   display: block;
   border: none;
   background: none;
@@ -29,7 +29,7 @@
 
 /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
-  color: ffffff;
+  color: #ffffff;
 }
 
 /* Main content */
