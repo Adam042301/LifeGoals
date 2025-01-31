@@ -9,7 +9,7 @@
   background-color: #a3a3a3;
   text-color: 111;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 27px;
 }
 
 /* Style the sidenav links and the dropdown button */
@@ -35,7 +35,7 @@
 /* Main content */
 .main {
   margin-left: 200px; /* Same as the width of the sidenav */
-  font-size: 31px; /* Increased text to enable scrolling */
+  font-size: 27px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
 
