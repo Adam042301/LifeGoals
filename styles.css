@@ -11,11 +11,12 @@
   text-color: #000000;
   overflow-x: hidden;
   padding-top: 20px;
+  padding-left-side: 10; 
 }
 
 /* Style the sidenav links and the dropdown button */
 .sidenav a, .dropdown-btn {
-  padding: 20px 8px 20px 16px;
+  padding: 20px 20px 20px 20px;
   text-decoration: none;
   font-family: sans-serif;
   font-size: 20px;
