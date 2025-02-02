@@ -24,3 +24,5 @@ window.onclick = function(event) {
   }
 }
 
+alert("The file is working as attached");
+
