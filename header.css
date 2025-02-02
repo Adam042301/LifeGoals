@@ -9,13 +9,14 @@
 /* Style the header links */
 .header a {
   float: left;
-  color: #ffc926;
+  color: black;
   text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
+  font-family: sans-serif;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
