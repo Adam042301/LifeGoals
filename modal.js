@@ -32,7 +32,7 @@ window.onclick = function(event) {
 var modal = document.getElementById("secondModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("secondBtn");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
