@@ -5,7 +5,7 @@ var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("myClose")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -35,7 +35,7 @@ var modal = document.getElementById("secondModal");
 var btn = document.getElementById("secondBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("secondClose")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -68,7 +68,7 @@ var modal = document.getElementById("thirdModal");
 var btn = document.getElementById("thirdBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("thirdClose")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
