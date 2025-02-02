@@ -12,7 +12,6 @@ html {
   box-sizing: inherit;
 }
 
-
 .column {
   float: right;
   width: 26%;
@@ -28,8 +27,8 @@ html {
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #474e5d;
-  color: white;
+  background-color: #ffc926;
+  text-color: black;
 }
 
 .container {
