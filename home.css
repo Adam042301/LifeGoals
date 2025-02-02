@@ -15,7 +15,7 @@ html {
 
 .column {
   float: right;
-  width: 28%;
+  width: 26%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -51,15 +51,16 @@ html {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
-  background-color: #000;
+  background-color: #ebebeb;
+  text-color: #000000;
   text-align: center;
   cursor: pointer;
   width: 100%;
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: #ffffff;
+  text-color: #000;
 }
 
 @media screen and (max-width: 650px) {
