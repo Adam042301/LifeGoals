@@ -51,7 +51,7 @@ html {
   display: inline-block;
   padding: 8px;
   background-color: #ebebeb;
-  text-color: #000000;
+  color: #000000;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -59,7 +59,7 @@ html {
 
 .button:hover {
   background-color: #ffffff;
-  text-color: #000;
+  color: #000;
 }
 
 @media screen and (max-width: 650px) {
