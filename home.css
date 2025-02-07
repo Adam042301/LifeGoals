@@ -16,6 +16,7 @@ html {
   float: right;
   width: 33.333%;
   /* width: 28.4%; */
+  margin-top: 10px;
   margin-bottom: -5px;
   padding: 0 6px;
 }
@@ -39,6 +40,16 @@ html {
   margin: 8px;
   margin-top: 14px;
   padding: 40 10px;
+}
+
+img {
+  border-radius: 15px 15px 0px 0px; 
+  height: 200px;
+}
+
+li {
+  display:inline;
+  padding-right: 100px;
 }
 
 .container {
