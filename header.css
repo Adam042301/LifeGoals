@@ -4,7 +4,7 @@
   background-color: #ebebeb;
   padding: 30px 10px;
   font-family: sans-serif;
-  margin-top: -8px;
+  margin-top: 46px;
 }
 
 /* Style the header links */
@@ -29,12 +29,6 @@
 /* Change the background color on mouse-over */
 .header a:hover {
   background-color: #417478;
-  color: white;
-}
-
-/* Style the active/current link*/
-.header a.active {
-  background-color: dodgerblue;
   color: white;
 }
 

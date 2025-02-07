@@ -7,7 +7,7 @@
 }
 
 .footer-basic ul {
-  padding-left: 230px;
+  padding-left: 15px;
   list-style:none;
   text-align:center;
   font-size:18px;
@@ -37,7 +37,7 @@
   color:#aaa;
   margin-bottom:0;
   font-family: sans-serif;
-  padding-left: 230px;
+  padding-left: 15px;
   bottom: 0;
   clear: both;
 }
