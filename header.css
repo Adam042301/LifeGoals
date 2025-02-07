@@ -4,14 +4,15 @@
   background-color: #ebebeb;
   padding: 30px 10px;
   font-family: sans-serif;
-  margin-top: 46px;
+  margin-top: 40px;
 }
 
 /* Style the header links */
 .header a {
   float: left;
   color: black;
-  text-align: center;
+  text-align: right;
+  margin-right: 12px;
   padding: 12px;
   text-decoration: none;
   font-size: 20px;
