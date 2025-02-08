@@ -29,8 +29,8 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #417478;
-  color: white;
+  background-color: #000000;
+  color: rgb(238, 238, 238);
 }
 
 /* Float the link section to the right */
