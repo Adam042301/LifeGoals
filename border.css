@@ -1,0 +1,76 @@
+.fancy {
+    --offset: 7px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    position: relative;
+    height: 250px;
+    width: 1993px;
+    overflow: hidden;
+    margin: 20px 20px 1px 20px;
+}
+
+/* Conic gradient */
+.fancy::before { 
+    content: '';
+    background: conic-gradient(transparent 270deg, rgb(173, 173, 173), transparent);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1;
+    width: 100%;
+    animation: rotate 4s linear infinite;
+}
+
+/* Overlay */
+.fancy::after {
+    content: '';
+    background: inherit;
+    border-radius: inherit;
+    position: absolute;
+    inset: var(--offset);
+    height: calc(100% - 2 * var(--offset));
+    width: calc(100% - 2 * var(--offset));
+}
+
+.fancy label{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 10;
+    margin: 60px 0px 0px 895px;
+}
+
+.headerOne {
+    color: gray;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 10;
+    margin: 110px 0px 0px 580px;
+  }
+
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) scale(1.4) rotate(0turn);
+    }
+
+    to {
+        transform: translate(-50%, -50%) scale(1.4) rotate(1turn);
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .fancy {
+      width: 92%;
+      display: block;
+    }
+    .fancy label{
+        margin: 60px 0px 0px 135px;
+    }
+    .headerOne{
+        margin: 90px 0px 0px 19px;
+    }
+  }
