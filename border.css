@@ -68,9 +68,12 @@
       display: block;
     }
     .fancy label{
-        margin: 40px 0px 0px 85px;
+        margin: 40px 0px 0px 80px;
+        text-align: center;
     }
     .headerOne{
-        margin: 80px 0px 0px 10px;
+        margin: 80px 20px 0px 20px;
+        text-align: center;
+
     }
   }
