@@ -64,13 +64,13 @@
 
 @media screen and (max-width: 900px) {
     .fancy {
-      width: 92%;
+      width: 91%;
       display: block;
     }
     .fancy label{
-        margin: 60px 0px 0px 135px;
+        margin: 60px 0px 0px 115px;
     }
     .headerOne{
-        margin: 90px 0px 0px 19px;
+        margin: 90px 0px 0px 10px;
     }
   }
