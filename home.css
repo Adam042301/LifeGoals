@@ -35,7 +35,7 @@ html {
 .card {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  margin: 5px 10px 0px 10px;
+  margin: 5px 10px 20px 10px;
 }
 
 .about-section {
@@ -97,7 +97,6 @@ li {
 }
 
 .test {
-  padding-top: 18px;
   font-weight: bold;
   font-size: 30px;
   font-family: sans-serif;
