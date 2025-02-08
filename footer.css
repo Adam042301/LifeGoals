@@ -13,7 +13,7 @@
   font-size:18px;
   line-height:1.6;
   margin-bottom:0;
-  padding-top: 450px;
+  padding-top: 400px;
   font-family: sans-serif;
   clear: both;
 }
@@ -40,4 +40,11 @@
   padding-left: 15px;
   bottom: 0;
   clear: both;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 800px) {
+  .footer-basic ul {
+    padding-top: 100px;
+  }
 }
