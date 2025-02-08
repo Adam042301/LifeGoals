@@ -13,8 +13,8 @@ html {
 }
 
 .column {
-  float: right;
-  width: 33.333%;
+  float: left;
+  width: 33.3%;
   margin-top: 10px;
   margin-bottom: -5px;
   padding: 0 6px;
@@ -34,8 +34,8 @@ html {
 
 .card {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-  margin: 10px;
   border-radius: 15px;
+  margin: 5px 10px 0px 10px;
 }
 
 .about-section {
@@ -43,28 +43,24 @@ html {
   text-align: center;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  width: 98.7%;
+  width: 98.2%;
   float: center;
   border-radius: 15px;
-  margin: 8px;
-  margin-top: 14px;
-  padding: 40 10px;
-
+  margin: 20px 0px 10px 18px;
 
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-  margin: 10px;
   border-radius: 15px;
 }
 
 iframe {
   border-radius: 15px 15px 0px 0px; 
-  height: 250px;
+  height: 275px;
   width: 100%;
 }
 
 img {
   border-radius: 15px 15px 0px 0px; 
-  height: 250px;
+  height: 275px;
 }
 
 
