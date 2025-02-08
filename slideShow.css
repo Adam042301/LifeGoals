@@ -1,0 +1,108 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+
+img[src="slideShowImages/skyDive.png"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border: 5px solid #555;
+    border: 5px solid rgb(204, 204, 204);
+}
+
+img[src="slideShowImages/falls.png"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border: 5px solid #555;
+    border: 5px solid rgb(204, 204, 204);
+}
+
+img[src="slideShowImages/PCBuild.png"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border: 5px solid rgb(204, 204, 204);
+}
+
+img[src="slideShowImages/fish.png"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border: 5px solid rgb(204, 204, 204);
+}
+
+img[src="slideShowImages/gaming.png"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border: 5px solid rgb(204, 204, 204);
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2100px;
+  position: relative;
+  float: center;
+  margin: auto;
+  padding: 20px 20px 20px 20px;
+}
+
+/* Caption text */
+.text {
+  color: gray;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 0px;
+  position: absolute;
+  width: 95.5%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: rgb(197, 197, 197);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 30px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fadeOut;
+  animation-duration: 1s;
+}
+
+@keyframes fadeOut {
+  from {opacity: 0.6} 
+  to {opacity: 1}
+}
+
+@media screen and (max-width: 900px) {
+    .text {
+        font-size: 14px;
+        text-align: center;
+        width:90%;
+    }
+    img[src="slideShowImages/PCBuild.png"]{
+        height: 100px;
+    }
+    img[src="slideShowImages/falls.png"] {
+        height: 100px;
+    }
+    img[src="slideShowImages/skyDive.png"]{
+        height: 100px;
+    }
+}
+

@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="border.css">
+    <link rel="stylesheet" href="slideShow.css">
 
     <div class="header">
       <div class="header-right">
         <a href="index.html">One Day or Day One</a>
-        <link rel="icon" type="image/png" href="/Images/favicon.png">
+        <link rel="icon" type="image/png" href="Images/favicon.png">
       </div> 
-      
+
+
     </div>
         
     <div class="navbar">
@@ -59,15 +61,73 @@
 
   
 <body>
-  <!-- <div class="about-section">
-     <div class="headerOne">
-       <p>Life Goals</p>
-     </div>
-    <div class="headerTwo">
-       <p>The purpose of this site is to showcase Adam's life goals.</p>
-     </div>
-</div> -->
+  
 
+
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="slideShowImages/skyDive.png" style="width:100%">
+      <div class="text">Skydiving</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="slideShowImages/falls.png" style="width:100%">
+      <div class="text">Niagara Falls</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="slideShowImages/PCBuild.png" style="width:100%">
+      <div class="text">Build Dream PC</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="slideShowImages/fish.png" style="width:100%">
+      <div class="text">Large Mouth Bass Pet</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="slideShowImages/gaming.png" style="width:100%">
+      <div class="text">Gaming Event</div>
+    </div>
+    
+    </div>
+    
+    <div style="text-align: center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 3500); // Change image every 2 seconds
+    }
+    </script>
 
 
 

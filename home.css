@@ -51,14 +51,22 @@ html {
 
 iframe {
   border-radius: 15px 15px 0px 0px; 
-  height: 275px;
+  height: 300px;
   width: 100%;
 }
 
 img {
   border-radius: 15px 15px 0px 0px; 
-  height: 275px;
+  height: 300px;
 }
+
+@media screen and (max-width: 1200px) {
+  img {
+    border-radius: 15px 15px 0px 0px; 
+    height: 200px;
+  }
+}
+
 
 
 img:hover {
