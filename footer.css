@@ -45,5 +45,11 @@
 @media screen and (max-width: 800px) {
   .footer-basic ul {
     padding-top: 100px;
+    text-align: left;
+    padding-left: 33%;
+  }
+  .footer-basic .copyright {
+    text-align: left;
+    padding-left: 41.5%;
   }
 }
