@@ -81,7 +81,7 @@ img[src="slideShowImages/gaming.png"] {
 /* Fading animation */
 .fade {
   animation-name: fadeOut;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 
 @keyframes fadeOut {
