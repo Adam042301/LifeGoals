@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 800px) {
   .navbar {
-    margin-top: 0px;
+    margin-top: 110px;
     float: none;
     display: block;
     text-align: left;
