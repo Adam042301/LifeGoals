@@ -9,6 +9,7 @@
 
 /* Style the header links */
 .header a {
+  background-color: white;
   float: left;
   color: black;
   text-align: right;
@@ -17,8 +18,9 @@
   text-decoration: none;
   font-size: 20px;
   line-height: 25px;
-  border-radius: 4px;
   font-family: sans-serif;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -29,7 +31,7 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #ffffff;
+  background-color: #ebebeb;
   border-radius: 15px;
 }
 
@@ -43,12 +45,15 @@
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 1200px) {
   .header {
+    z-index: 50;
     margin-top: 0px;
+    position: fixed; /* Set the navbar to fixed position */
+
   }
   .header a {
-    float: center;
+    width: 440px;
     display: block;
-    text-align: left;
+    text-align: center;
   }
   .header-right {
     float: left;

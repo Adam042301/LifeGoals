@@ -91,12 +91,6 @@ img:hover {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-
-li {
-  display:inline;
-  padding-right: 100px;
-}
-
 .headerOne {
   font-size: 40px;
   font-weight: 550;
