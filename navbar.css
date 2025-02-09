@@ -51,7 +51,8 @@
     position:relative;
   }
   .navbar a{
+    font-size: 20px;
     margin: 5px;
-    padding: 10px;
+    padding: 5px;
   }
 }
