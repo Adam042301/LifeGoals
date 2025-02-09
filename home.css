@@ -12,6 +12,27 @@ html {
   box-sizing: inherit;
 }
 
+.button {
+  background-color: white;
+  float: left;
+  color: black;
+  text-align: right;
+  margin-right: 12px;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: sans-serif;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+}
+
+/* Change the background color on mouse-over */
+.button:hover {
+  background-color: #ebebeb;
+  border-radius: 15px;
+}
+
 .column {
   float: left;
   width: 33.3%;
@@ -105,7 +126,7 @@ img:hover {
 }
 
 .container {
-  padding: 0 16px;
+  padding: 20px;
   font-size: 22px;
 }
 
@@ -129,15 +150,18 @@ img:hover {
 }
 
 .button {
+  font-size: 24px;
+  font-weight: 500;
   border: none;
   outline: 0;
   display: inline-block;
   padding: 8px;
   background-color: #ebebeb;
-  color: #000000;
+  color: #797979;
   text-align: center;
   cursor: pointer;
   width: 100%;
+  font-family: sans-serif;
 }
 
 .button:hover {
