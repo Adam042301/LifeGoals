@@ -21,7 +21,7 @@ html {
 }
 
 .card {
-  box-shadow: 0 5px 10px 0 rgba(24, 24, 24, 0.534);
+  box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
   border-radius: 15px;
   margin: 5px 10px 20px 10px;
 }
@@ -36,7 +36,7 @@ html {
   border-radius: 15px;
   margin: 20px 0px 10px 18px;
 
-  box-shadow: 0 5px 10px 0 rgba(24, 24, 24, 0.534);
+  box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
   border-radius: 15px;
 }
 
@@ -44,7 +44,7 @@ html {
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 1200px) {
   .about-section {
-    width: 92%;
+    width: 91%;
     float: left;
   }
 }

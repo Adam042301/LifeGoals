@@ -6,7 +6,7 @@ img[src="slideShowImages/skyDive.png"] {
     animation: shake 0s;
     opacity: 1;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
     border: 5px solid #555;
     border: 5px solid rgb(204, 204, 204);
 }
@@ -15,7 +15,7 @@ img[src="slideShowImages/falls.png"] {
     animation: shake 0s;
     opacity: 1;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
     border: 5px solid #555;
     border: 5px solid rgb(204, 204, 204);
 }
@@ -24,7 +24,7 @@ img[src="slideShowImages/PCBuild.png"] {
     animation: shake 0s;
     opacity: 1;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
     border: 5px solid rgb(204, 204, 204);
 }
 
@@ -32,7 +32,7 @@ img[src="slideShowImages/fish.png"] {
     animation: shake 0s;
     opacity: 1;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
     border: 5px solid rgb(204, 204, 204);
 }
 
@@ -40,7 +40,7 @@ img[src="slideShowImages/gaming.png"] {
     animation: shake 0s;
     opacity: 1;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
     border: 5px solid rgb(204, 204, 204);
 }
 
