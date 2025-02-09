@@ -48,11 +48,10 @@
     width: 500px;
     z-index: 50;
     margin-top: -110px;
-    position: fixed; /* Set the navbar to fixed position */
-
+    position: fixed;
   }
   .header a {
-    width: 350px;
+    width: 345px;
     display: block;
     text-align: center;
   }
