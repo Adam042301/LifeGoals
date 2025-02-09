@@ -97,12 +97,23 @@ img[src="slideShowImages/gaming.png"] {
     }
     img[src="slideShowImages/PCBuild.png"]{
         height: 100px;
+        border: 3px solid rgb(204, 204, 204);
     }
     img[src="slideShowImages/falls.png"] {
         height: 100px;
+        border: 3px solid rgb(204, 204, 204);
     }
     img[src="slideShowImages/skyDive.png"]{
         height: 100px;
+        border: 3px solid rgb(204, 204, 204);
+    }
+    img[src="slideShowImages/fish.png"] {
+        height: 100px;
+        border: 3px solid rgb(204, 204, 204);
+    }
+    img[src="slideShowImages/gaming.png"] {
+        height: 100px;
+        border: 3px solid rgb(204, 204, 204);
     }
 }
 
