@@ -47,29 +47,6 @@ html {
   margin: 5px 10px 20px 10px;
 }
 
-.about-section {
-  padding: 35px;
-  text-align: center;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  width: 97.7%;
-  float: center;
-  border-radius: 15px;
-  margin: 20px 0px 10px 18px;
-
-  box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-  border-radius: 15px;
-}
-
-
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-@media screen and (max-width: 1200px) {
-  .about-section {
-    width: 91%;
-    float: left;
-  }
-}
-
 iframe {
   border-radius: 15px 15px 0px 0px; 
   height: 275px;
@@ -80,15 +57,6 @@ img {
   border-radius: 15px 15px 0px 0px; 
   height: 275px;
 }
-
-@media screen and (max-width: 1200px) {
-  img {
-    border-radius: 15px 15px 0px 0px; 
-    height: 200px;
-  }
-}
-
-
 
 img:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
@@ -112,18 +80,6 @@ img:hover {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-.headerOne {
-  font-size: 40px;
-  font-weight: 550;
-  width: 99.3%;
-}
-
-.headerTwo {
-  font-size: 30px;
-  width: 99.3%;
-  color: gray;
-  font-weight: 500;
-}
 
 .container {
   padding: 20px;
@@ -169,10 +125,82 @@ img:hover {
   color: #000;
 }
 
+
+
+    /* PC Sizing */
+@media screen and (max-width: 2100px) {
+  .about-section {
+    padding: 35px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 98.1%;
+    float: center;
+    border-radius: 15px;
+    margin: 20px 0px 10px 18px;
+  
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    border-radius: 15px;
+  }
+  .headerOne {
+    font-size: 40px;
+    font-weight: 550;
+    width: 99.3%;
+  }
+  .headerTwo {
+    font-size: 30px;
+    width: 99.3%;
+    color: gray;
+    font-weight: 500;
+  }
+}
+
+
+
+      /* MAC Screen Sizing */
+@media screen and (max-width: 1600px) {
+  /* .about-section {
+    padding: 35px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 98.1%;
+    float: center;
+    border-radius: 15px;
+    margin: 20px 0px 10px 18px;
+  
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    border-radius: 15px;
+  }
+  .headerOne {
+    font-size: 40px;
+    font-weight: 550;
+    width: 99.3%;
+  }
+  .headerTwo {
+    font-size: 30px;
+    width: 99.3%;
+    color: gray;
+    font-weight: 500;
+  } */
+}
+
+
+
+/* IPhone Sizing */
 @media screen and (max-width: 900px) {
+  /* Add media queries for responsivenes */
+  .about-section {
+    width: 91%;
+    float: left;
+  }
   .column {
     width: 100%;
     display: block;
+  }
+  img {
+    border-radius: 15px 15px 0px 0px; 
+    height: 200px;
   }
 }
 
