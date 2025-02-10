@@ -192,7 +192,19 @@ img:hover {
   /* Add media queries for responsivenes */
   .about-section {
     width: 91%;
-    float: left;
+    height: 250px;
+  }
+  .headerOne {
+    font-size: 40px;
+    font-weight: 550;
+    width: 99.3%;
+    margin: -30px 0 0 0;
+  }
+  .headerTwo {
+    font-size: 30px;
+    width: 99.3%;
+    color: gray;
+    font-weight: 500;
   }
   .column {
     width: 100%;

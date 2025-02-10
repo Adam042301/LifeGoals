@@ -104,15 +104,15 @@
       /* IPhone Sizing */
 @media screen and (max-width: 900px) {
     .fancy {
-      width: 89%;
+      width: 90%;
       display: block;
     }
     .fancy label{
-        padding: 20px 0 0 10%;
+        padding: 20px 0 0 15%;
         text-align: center;
     }
     .headerOne{
-        margin: 60px 20px 0px 0px;
+        margin: 60px 20px 0px -30px;
         padding: 0px 0 0 0%;
         text-align: center;
     }
