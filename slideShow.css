@@ -44,6 +44,30 @@ img[src="slideShowImages/gaming.png"] {
     border: 5px solid rgb(204, 204, 204);
 }
 
+img[src="slideShowImages/beach.png"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    border: 5px solid rgb(204, 204, 204);
+}
+
+img[src="slideShowImages/kansasCity.png"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    border: 5px solid rgb(204, 204, 204);
+}
+
+img[src="slideShowImages/iceRink.png"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    border: 5px solid rgb(204, 204, 204);
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 2100px;
@@ -115,5 +139,17 @@ img[src="slideShowImages/gaming.png"] {
         height: 80px;
         border: 3px solid rgb(204, 204, 204);
     }
+    img[src="slideShowImages/beach.png"]{
+        height: 80px;
+        border: 3px solid rgb(204, 204, 204);
+  }
+    img[src="slideShowImages/kansasCity.png"] {
+        height: 80px;
+        border: 3px solid rgb(204, 204, 204);
+  }
+    img[src="slideShowImages/iceRink.png"] {
+        height: 80px;
+        border: 3px solid rgb(204, 204, 204);
+  }
 }
 
