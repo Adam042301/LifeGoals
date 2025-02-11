@@ -165,6 +165,7 @@
       display: block;
     }
     .fancy label{
+        color: red;
         margin-left: 50px;
         margin-top: 10px;
         text-align: center;
