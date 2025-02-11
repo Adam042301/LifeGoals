@@ -1,3 +1,4 @@
+
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -115,7 +116,7 @@ img[src="slideShowImages/iceRink.png"] {
 
 @media screen and (max-width: 900px) {
     .text {
-        font-size: 14px;
+        font-size: 13px;
         text-align: center;
         width:90%;
     }
