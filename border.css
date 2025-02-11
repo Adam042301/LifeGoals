@@ -161,6 +161,7 @@
 @media screen and (max-width: 600px) {
     .fancy {
       width: 90%;
+      height: 260px;
       display: block;
     }
     .fancy label{
@@ -169,7 +170,7 @@
         text-align: center;
     }
     .headerOne{
-        margin: 60px 20px 0px -11px;
+        margin: 60px 20px 0px -12px;
         text-align: center;
     }
   }
