@@ -41,15 +41,43 @@
   padding-left: 40px;
 }
 
+/* PC Sizing */
+@media screen and (max-width: 5000px) {
+  .footer-basic ul {
+    padding-top: 400px;
+    text-align: left;
+    padding-left: 45.5%;
+  }
+  .footer-basic .copyright {
+    text-align: left;
+    padding-left: 47.5%;
+  }
+}
+
+
+/* MAC Sizing */
+@media screen and (max-width: 1600px) {
+  .footer-basic ul {
+    padding-top: 400px;
+    text-align: left;
+    padding-left: 45.5%;
+  }
+  .footer-basic .copyright {
+    text-align: left;
+    padding-left: 48.2%;
+  }
+}
+
+
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 800px) {
   .footer-basic ul {
     padding-top: 100px;
     text-align: left;
-    padding-left: 29%;
+    padding-left: 34%;
   }
   .footer-basic .copyright {
     text-align: left;
-    padding-left: 39.5%;
+    padding-left: 42.5%;
   }
 }
