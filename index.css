@@ -3,7 +3,6 @@ body {
     margin: 5;
   }
   
-  
   html {
     box-sizing: border-box;
   }
@@ -89,8 +88,6 @@ body {
     }
   }
   
-  
-  
   img:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 2s;
@@ -112,8 +109,6 @@ body {
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
-  
-  
   
   .headerOne {
     font-size: 40px;
