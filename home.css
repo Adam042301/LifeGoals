@@ -164,7 +164,6 @@ img:hover {
     text-align: center;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    /* width: 97.6%; */
     width: auto;
     float: center;
     border-radius: 15px;
@@ -196,6 +195,21 @@ img:hover {
   }
 }
 
+
+
+
+/* Tablet Sizing */
+@media screen and (max-width: 1000px) {
+  /* Add media queries for responsivenes */
+  .column {
+    width: 50%;
+    display: block;
+  }
+  img {
+    border-radius: 15px 15px 0px 0px; 
+    height: 200px;
+  }
+}
 
 
 /* IPhone Sizing */
