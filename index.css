@@ -95,7 +95,9 @@ body {
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
   
-  .headerOne {
+
+  /* Taking out here to put into border.css class */
+  /* .headerOne {
     font-size: 40px;
     font-weight: 550;
     width: 99.3%;
@@ -106,7 +108,7 @@ body {
     width: 99.3%;
     color: gray;
     font-weight: 500;
-  }
+  } */
   
   .container {
     text-align: center;

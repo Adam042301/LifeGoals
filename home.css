@@ -118,7 +118,7 @@ img:hover {
 
 
     /* PC Sizing */
-@media screen and (max-width: 2100px) {
+@media screen and (max-width: 2500px) {
   .about-section {
     padding: 35px;
     text-align: center;
@@ -148,7 +148,6 @@ img:hover {
     height: 275px;
     width: 100%;
   }
-  
   img {
     border-radius: 15px 15px 0px 0px; 
     height: 275px;
@@ -175,13 +174,11 @@ img:hover {
   .headerOne {
     font-size: 40px;
     font-weight: 550;
-    width: 99.3%;
   }
   .headerTwo {
     font-size: 30px;
-    width: 99.3%;
-    color: gray;
     font-weight: 500;
+    color: gray;
   }
   iframe {
     border-radius: 15px 15px 0px 0px; 
@@ -222,12 +219,10 @@ img:hover {
   .headerOne {
     font-size: 35px;
     font-weight: 550;
-    width: 99.3%;
     margin: -30px 0 0 0;
   }
   .headerTwo {
     font-size: 27px;
-    width: 99.3%;
     color: gray;
     font-weight: 500;
   }

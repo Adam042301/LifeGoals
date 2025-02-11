@@ -12,6 +12,50 @@
     animation: rotate 3s linear infinite;
 }
 
+/* .fancy label {
+    color: black;
+    font-size: 40px;
+    font-weight: 550;
+    z-index: 11;
+  }
+  
+  .headerOne {
+    color: gray;
+    font-size: 30px;
+    font-weight: 500;
+    z-index: 11;
+  } */
+
+
+/* Taking this out becuase trying to get this to function the same as the home pages. */
+.fancy label{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 10;
+    margin-top: 0px;
+    margin-right: 0%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    text-align: center;
+    width: auto;
+}
+.headerOne{
+    color: gray;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 10;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    position: center;
+    text-align: center;
+    width: auto;
+}
+
 /* Overlay */
 .fancy::after {
     content: '';
@@ -49,13 +93,19 @@
             margin: 20px 20px 1px 20px;
             padding: 20px 20px 20px 20px;
         }
-        .fancy label{
+
+        /* .fancy label{
             color: rgb(0, 0, 0);
-            font-size: 40px;
+            font-size: 30px;
             font-weight: 600;
             position: absolute;
             z-index: 10;
-            padding: 30px 0 0 42.2%;
+            margin-top: 0px;
+            margin-right: 0%;
+            margin-left: -5%;
+            margin-bottom: 10px;
+            text-align: center;
+            width: auto;
         }
         .headerOne{
             color: gray;
@@ -63,8 +113,14 @@
             font-weight: 600;
             position: absolute;
             z-index: 10;
-            padding: 100px 0 0 25%;
-        }
+            margin-top: 100px;
+            margin-right: 10px;
+            margin-left: 15%;
+            margin-bottom: 10px;
+            position: center;
+            text-align: center;
+            width: auto;
+        } */
       }
 
 
@@ -81,13 +137,14 @@
         margin: 20px 20px 1px 20px;
         padding: 20px 20px 20px 20px;
     }
-    .fancy label{
+    /* .fancy label{
         color: rgb(0, 0, 0);
         font-size: 40px;
         font-weight: 600;
-        position: absolute;
         z-index: 10;
-        padding: 40px 0 0 40.3%;
+        padding-left: 35%;
+        padding-right: 20%;
+        padding-top: 2%;
     }
     .headerOne{
         color: gray;
@@ -95,8 +152,14 @@
         font-weight: 600;
         position: absolute;
         z-index: 10;
-        padding: 110px 0 0 15%;
-    }
+        margin-top: 100px;
+        margin-right: 10px;
+        margin-left: 15%;
+        margin-bottom: 10px;
+        position: center;
+        text-align: center;
+        width: auto;
+    } */
   }
 
 
