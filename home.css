@@ -13,6 +13,8 @@ html {
   box-sizing: inherit;
 }
 
+
+
 .button {
   background-color: white;
   float: left;
@@ -118,7 +120,7 @@ img:hover {
 
 
     /* PC Sizing */
-@media screen and (max-width: 2500px) {
+@media screen and (max-width: 5000px) {
   .about-section {
     padding: 35px;
     text-align: center;

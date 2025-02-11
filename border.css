@@ -12,31 +12,29 @@
     animation: rotate 3s linear infinite;
 }
 
-/* .fancy label {
-    color: black;
-    font-size: 40px;
-    font-weight: 550;
-    z-index: 11;
-  }
-  
-  .headerOne {
-    color: gray;
-    font-size: 30px;
-    font-weight: 500;
-    z-index: 11;
-  } */
-
+.fancy {
+    --offset: 7px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    position: relative;
+    height: 250px;
+    width: 97.4%;
+    width: auto;
+    overflow: hidden;
+    margin: 20px 20px 1px 20px;
+    padding: 20px 20px 20px 20px;
+}
 
 /* Taking this out becuase trying to get this to function the same as the home pages. */
 .fancy label{
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     position: absolute;
     z-index: 10;
-    margin-top: 0px;
+    margin-top: 30px;
     margin-right: 0%;
-    margin-left: 20%;
+    margin-left: 42.1%;
     margin-bottom: 10px;
     text-align: center;
     width: auto;
@@ -49,7 +47,7 @@
     z-index: 10;
     margin-top: 100px;
     margin-right: 10px;
-    margin-left: 15%;
+    margin-left: 25%;
     margin-bottom: 10px;
     position: center;
     text-align: center;
@@ -80,7 +78,7 @@
 
 
     /* PC Sizing */
-    @media screen and (max-width: 2100px) {
+    @media screen and (max-width: 5000px) {
         .fancy {
             --offset: 7px;
             background: rgb(255, 255, 255);
@@ -94,15 +92,15 @@
             padding: 20px 20px 20px 20px;
         }
 
-        /* .fancy label{
+        .fancy label{
             color: rgb(0, 0, 0);
-            font-size: 30px;
+            font-size: 40px;
             font-weight: 600;
             position: absolute;
             z-index: 10;
-            margin-top: 0px;
+            margin-top: 30px;
             margin-right: 0%;
-            margin-left: -5%;
+            margin-left: 42.2%;
             margin-bottom: 10px;
             text-align: center;
             width: auto;
@@ -115,12 +113,12 @@
             z-index: 10;
             margin-top: 100px;
             margin-right: 10px;
-            margin-left: 15%;
+            margin-left: 25%;
             margin-bottom: 10px;
             position: center;
             text-align: center;
             width: auto;
-        } */
+        }
       }
 
 
