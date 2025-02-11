@@ -76,8 +76,9 @@
         border-radius: 15px;
         position: relative;
         height: 250px;
-        width: 97.4%;
+        /* width: 97.4%; */
         /* width: 1993px; */
+        width: auto;
         overflow: hidden;
         margin: 20px 20px 1px 20px;
         padding: 20px 20px 20px 20px;
@@ -102,7 +103,7 @@
 
 
       /* IPhone Sizing */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .fancy {
       width: 90%;
       display: block;

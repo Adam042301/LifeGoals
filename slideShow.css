@@ -71,7 +71,8 @@ img[src="slideShowImages/iceRink.png"] {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 2100px;
+  /* max-width: 2100px; */
+  width: auto;
   position: relative;
   float: center;
   margin: auto;
