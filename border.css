@@ -96,11 +96,9 @@
             color: rgb(0, 0, 0);
             font-size: 40px;
             font-weight: 600;
-            position: absolute;
             z-index: 10;
             margin-top: 30px;
-            margin-right: 0%;
-            margin-left: 42.2%;
+            margin-left: 43.2%;
             margin-bottom: 10px;
             text-align: center;
             width: auto;
@@ -135,14 +133,12 @@
         margin: 20px 20px 1px 20px;
         padding: 20px 20px 20px 20px;
     }
-    /* .fancy label{
+    .fancy label{
         color: rgb(0, 0, 0);
         font-size: 40px;
         font-weight: 600;
+        margin-left: 40%;
         z-index: 10;
-        padding-left: 35%;
-        padding-right: 20%;
-        padding-top: 2%;
     }
     .headerOne{
         color: gray;
@@ -157,7 +153,7 @@
         position: center;
         text-align: center;
         width: auto;
-    } */
+    }
   }
 
 
