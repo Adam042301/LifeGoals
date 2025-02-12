@@ -161,11 +161,11 @@
 @media screen and (max-width: 600px) {
     .fancy {
       width: 90%;
-      height: 290px;
+      height: 280px;
       display: block;
     }
     .fancy label{
-        color: gold;
+        color: black;
         margin-left: 49px;
         margin-top: 10px;
         text-align: center;
