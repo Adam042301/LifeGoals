@@ -194,11 +194,8 @@ img:hover {
   }
 }
 
-
-
-
 /* Tablet Sizing */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   /* Add media queries for responsivenes */
   .column {
     width: 50%;
@@ -210,9 +207,8 @@ img:hover {
   }
 }
 
-
 /* IPhone Sizing */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   /* Add media queries for responsivenes */
   .about-section {
     width: 91%;
@@ -237,15 +233,4 @@ img:hover {
     height: 200px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 

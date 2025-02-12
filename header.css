@@ -43,7 +43,7 @@
 }
 
 /* Tablet view Moving header down to allow room for navbar to take over space */
-@media screen and (max-width: 1418px){
+@media screen and (max-width: 1420px){
   .header {
     width: 100%;
     margin-top: 85px;
