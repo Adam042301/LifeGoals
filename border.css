@@ -165,13 +165,13 @@
       display: block;
     }
     .fancy label{
-        color: black;
+        color: green;
         margin-left: 49px;
         margin-top: 10px;
         text-align: center;
     }
     .headerOne{
-        margin: 50px 20px 0px -2px;
+        margin: 50px 20px 0px 0px;
         text-align: center;
     }
   }
