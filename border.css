@@ -120,6 +120,91 @@
       }
 
 
+        /* Normal Screen Sizing */
+        @media screen and (max-width: 2000px) {
+            .fancy label{
+                margin-left: 42.2%;
+            }
+            .headerOne{
+                margin-left: 24%;
+            }
+          }
+
+
+              /* Normal Screen Sizing */
+              @media screen and (max-width: 1950px) {
+                .fancy label{
+                    margin-left: 41.9%;
+                }
+                .headerOne{
+                    margin-left: 24%;
+                }
+              }
+
+        /* Normal Screen Sizing */
+        @media screen and (max-width: 1900px) {
+            .fancy label{
+                margin-left: 41.8%;
+            }
+            .headerOne{
+                margin-left: 22%;
+            }
+          }
+
+        /* Normal Screen Sizing */
+        @media screen and (max-width: 1850px) {
+            .fancy label{
+                margin-left: 41.7%;
+            }
+            .headerOne{
+                margin-left: 22%;
+            }
+          }
+
+
+        /* Normal Screen Sizing */
+        @media screen and (max-width: 1800px) {
+            .fancy label{
+                margin-left: 41.6%;
+            }
+            .headerOne{
+                margin-left: 22%;
+            }
+          }
+
+        /* Normal Screen Sizing */
+        @media screen and (max-width: 1750px) {
+            .fancy label{
+                margin-left: 41.3%;
+            }
+            .headerOne{
+                margin-left: 21%;
+            }
+          }
+
+
+        /* Normal Screen Sizing */
+        @media screen and (max-width: 1700px) {
+            .fancy label{
+                margin-left: 41.1%;
+            }
+            .headerOne{
+                margin-left: 19%;
+            }
+          }
+
+
+                  /* Normal Screen Sizing */
+        @media screen and (max-width: 1650px) {
+            .fancy label{
+                margin-left: 40.8%;
+            }
+            .headerOne{
+                margin-left: 19%;
+            }
+          }
+
+
         /* MAC Screen Sizing */
   @media screen and (max-width: 1600px) {
     .fancy {
