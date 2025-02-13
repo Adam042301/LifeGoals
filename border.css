@@ -242,8 +242,29 @@
   }
 
 
+
+      /* Smallest (Iphone) Monitor Sizing */
+      @media screen and (max-width: 800px) {
+        .fancy {
+          width: 92%;
+          height: 260px;
+          display: block;
+        }
+        .fancy label{
+            color: black;
+            margin-left: 20.5%;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .headerOne{
+            margin: 65px 20px 0px 2px;
+            text-align: center;
+        }
+      }
+
+
       /* Iphone Sizing */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 495px) {
     .fancy {
       width: 90%;
       height: 280px;
