@@ -20,6 +20,14 @@ img[src="slideShowImages/lasVegasStrip.png"] {
     border: 5px solid rgb(204, 204, 204);
 }
 
+img[src="slideShowImages/falls.png"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    border: 5px solid rgb(204, 204, 204);
+}
+
 img[src="slideShowImages/grandCanyon.png"] {
     animation: shake 0s;
     opacity: 1;
