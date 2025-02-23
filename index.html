@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="border.css">
     <link rel="stylesheet" href="slideShow.css">
-
+    <link rel="stylesheet" href="progressBar.css">
+    
+    <script src="progressBar.js" defer></script>
     <script src="slideShow.js" defer></script>
 
     <link rel="icon" type="image/png" href="Images/One.png">
@@ -66,51 +68,54 @@
   <div class="slideshow-container">
 
     <div class="mySlides fade">
-      <div class="numbertext">1 / 8</div>
+      <div class="numbertext">1 / 10</div>
       <img src="slideShowImages/skyDive.png" style="width:100%">
-      <div class="text">Skydiving</div>
     </div>
     
     <div class="mySlides fade">
-      <div class="numbertext">2 / 8</div>
+      <div class="numbertext">2 / 10</div>
+      <img src="slideShowImages/lasVegasStrip.png" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 10</div>
+      <img src="slideShowImages/grandCanyon.png" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 10</div>
       <img src="slideShowImages/falls.png" style="width:100%">
-      <div class="text">Niagara Falls</div>
     </div>
     
     <div class="mySlides fade">
-      <div class="numbertext">3 / 8</div>
+      <div class="numbertext">5 / 10</div>
       <img src="slideShowImages/PCBuild.png" style="width:100%">
-      <div class="text">Build Dream PC</div>
+      <!-- <div class="text">Build Dream PC</div> -->
     </div>
 
     <div class="mySlides fade">
-      <div class="numbertext">4 / 8</div>
+      <div class="numbertext">6 / 10</div>
       <img src="slideShowImages/fish.png" style="width:100%">
-      <div class="text">Large Mouth Bass Pet</div>
     </div>
 
     <div class="mySlides fade">
-      <div class="numbertext">5 / 8</div>
+      <div class="numbertext">7 / 10</div>
       <img src="slideShowImages/gaming.png" style="width:100%">
-      <div class="text">Gaming Event</div>
     </div>
 
     <div class="mySlides fade">
-      <div class="numbertext">6 / 8</div>
+      <div class="numbertext">8 / 10</div>
       <img src="slideShowImages/beach.png" style="width:100%">
-      <div class="text">Bahamas</div>
     </div>
 
     <div class="mySlides fade">
-      <div class="numbertext">7 / 8</div>
+      <div class="numbertext">9 / 10</div>
       <img src="slideShowImages/kansasCity.png" style="width:100%">
-      <div class="text">Kansas City, MO</div>
     </div>
 
     <div class="mySlides fade">
-      <div class="numbertext">8 / 8</div>
+      <div class="numbertext">10 / 10</div>
       <img src="slideShowImages/iceRink.png" style="width:100%">
-      <div class="text">FSU Ice Rink</div>
     </div>
   
     </div>
@@ -122,6 +127,8 @@
       <span class="dot"></span>
       <span class="dot"></span>
       <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span>
       <span class="dot"></span>
       <span class="dot"></span>
     </div>
@@ -137,7 +144,9 @@
   </div>
 </div>
 
-<body>
+<div id="myProgress">
+  <div id="myBar">26% of Goals Complete</div>
+</div>
 
 <div class="column">
   <div class="card">
@@ -158,6 +167,10 @@
       <p>Own a Home</p>
       <p>Swim with Dolphins</p>
       <p>Northern Lights</p>
+      <p>Demolition of Building</p>
+      <p>Buck-ee's</p>
+      <p>Fossil</p>
+      <p>Regis Galerie Art</p>
       <p>Vist Volcano</p>
       <p>Hockey Hall of Fame</p>
       <p>Have Kids</p>
@@ -188,6 +201,7 @@
       <p>Turkey Hunt</p>
       <p>Las Vegas</p>
       <p>Grand Canyon</p>
+      <p>Debt Free</p>
       <p>Pheasant Hunt</p>
       <p>Drawing</p>
       <p>Duck Hunt</p>
@@ -228,6 +242,7 @@
         <p>Drive Zamboni (Big Rapids, 2021)</p>
         <p>Skydiving (Grand Haven, MI, 2024)</p>
         <p>Las Vegas (2025)</p>
+        <p>Debt Free (2023)</p>
         <p>Grand Canyon (2025)</p>
         <p>President in Person (Battle Creek, MI, 2020)</p>
         <p>Swim with Dolphins (Cabo San Lucas, Mexico, 2019)</p>
@@ -264,6 +279,10 @@
           <p>Reach 800 Credit Score</p>
           <p>Retire Early</p>
           <p>Own a Dog</p>
+          <p>Demolition of Building</p>
+          <p>Buck-ee's</p>
+          <p>Fossil</p>
+          <p>Regis Galerie Art</p>
           <p>New Home</p>
           <p>NBA Game</p>
           <p>DisneyLand Park</p>
