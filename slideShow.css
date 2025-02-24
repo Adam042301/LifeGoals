@@ -141,6 +141,14 @@ img[src="slideShowImages/iceRink.png"] {
         height: 80px;
         border: 3px solid rgb(204, 204, 204);
     }
+    img[src="slideShowImages/lasVegasStrip.png"] {
+        height: 80px;
+        border: 3px solid rgb(204, 204, 204);
+    }
+    img[src="slideShowImages/grandCanyon.png"]{
+        height: 80px;
+        border: 3px solid rgb(204, 204, 204);
+    }
     img[src="slideShowImages/falls.png"] {
         height: 80px;
         border: 3px solid rgb(204, 204, 204);

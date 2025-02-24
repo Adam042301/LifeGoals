@@ -19,9 +19,3 @@
     border-radius: 11px;
     font-weight: 500;
   }
-
-  @media screen and (max-width: 700px) {
-    #myBar {
-     font-size: 13px;
-    }
-  }
