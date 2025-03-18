@@ -20,6 +20,40 @@ img[src="slideShowImages/lasVegasStrip.png"] {
     border: 5px solid rgb(204, 204, 204);
 }
 
+img[src="slideShowImages/whiteHouse.png"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    border: 5px solid rgb(204, 204, 204);
+}
+
+img[src="slideShowImages/littleIsland.png"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    border: 5px solid rgb(204, 204, 204);
+}
+
+img[src="slideShowImages/monument.png"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    border: 5px solid #555;
+    border: 5px solid rgb(204, 204, 204);
+}
+
+img[src="slideShowImages/capitalBuilding"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    border: 5px solid #555;
+    border: 5px solid rgb(204, 204, 204);
+}
+
 img[src="slideShowImages/falls.png"] {
     animation: shake 0s;
     opacity: 1;
@@ -161,6 +195,24 @@ img[src="slideShowImages/iceRink.png"] {
         height: 80px;
         border: 3px solid rgb(204, 204, 204);
     }
+
+    img[src="slideShowImages/whiteHouse.png"]{
+        height: 80px;
+        border: 3px solid rgb(204, 204, 204);
+    }
+    img[src="slideShowImages/capitalBuilding.png"] {
+        height: 80px;
+        border: 3px solid rgb(204, 204, 204);
+    }
+    img[src="slideShowImages/monument.png"]{
+        height: 80px;
+        border: 3px solid rgb(204, 204, 204);
+    }
+    img[src="slideShowImages/littleIsland.png"] {
+        height: 80px;
+        border: 3px solid rgb(204, 204, 204);
+    }
+
     img[src="slideShowImages/gaming.png"] {
         height: 80px;
         border: 3px solid rgb(204, 204, 204);
