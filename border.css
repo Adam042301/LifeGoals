@@ -207,7 +207,7 @@
           }
 
 
-        /* MAC Screen Sizing */
+        /* MAC Screen Sizing I CHANGED THIS ONE FOR MAC*/
   @media screen and (max-width: 1600px) {
     .fancy {
         --offset: 7px;
@@ -235,7 +235,7 @@
         z-index: 10;
         margin-top: 100px;
         margin-right: 10px;
-        margin-left: 15%;
+        margin-left: 35.7%;
         margin-bottom: 10px;
         position: center;
         text-align: center;
@@ -269,7 +269,7 @@
 @media screen and (max-width: 495px) {
     .fancy {
       width: 90%;
-      height: 280px;
+      height: 200px;
       display: block;
     }
     .fancy label{
