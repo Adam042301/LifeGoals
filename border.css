@@ -269,7 +269,7 @@
 @media screen and (max-width: 495px) {
     .fancy {
       width: 90%;
-      height: 200px;
+      height: 150px;
       display: block;
     }
     .fancy label{
