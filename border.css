@@ -46,12 +46,7 @@
     position: absolute;
     z-index: 10;
     margin-top: 100px;
-    margin-right: 10px;
-    margin-left: 25%;
-    margin-bottom: 10px;
-    position: center;
     text-align: center;
-    width: auto;
 }
 
 /* Overlay */
@@ -100,8 +95,6 @@
             font-weight: 600;
             z-index: 10;
             margin-top: 30px;
-            margin-left: 42.3%;
-            margin-bottom: 10px;
             text-align: center;
             width: auto;
         }
@@ -112,12 +105,9 @@
             position: absolute;
             z-index: 10;
             margin-top: 100px;
-            margin-right: 10px;
-            margin-left: 25%;
-            margin-bottom: 10px;
+            margin-left: 39%;
             position: center;
             text-align: center;
-            width: auto;
         }
       }
 
@@ -125,10 +115,10 @@
         /* Normal Screen Sizing */
         @media screen and (max-width: 2000px) {
             .fancy label{
-                margin-left: 42.2%;
+                text-align: center;
             }
             .headerOne{
-                margin-left: 24%;
+                text-align: center;
             }
           }
 
@@ -136,30 +126,30 @@
               /* Normal Screen Sizing */
               @media screen and (max-width: 1950px) {
                 .fancy label{
-                    margin-left: 41.9%;
+                    text-align: center;
                 }
                 .headerOne{
-                    margin-left: 24%;
+                    text-align: center;
                 }
               }
 
         /* Normal Screen Sizing */
         @media screen and (max-width: 1900px) {
             .fancy label{
-                margin-left: 41.8%;
+                text-align: center;
             }
             .headerOne{
-                margin-left: 22%;
+                text-align: center;
             }
           }
 
         /* Normal Screen Sizing */
         @media screen and (max-width: 1850px) {
             .fancy label{
-                margin-left: 41.7%;
+                text-align: center;
             }
             .headerOne{
-                margin-left: 22%;
+                text-align: center;
             }
           }
 
@@ -167,20 +157,20 @@
         /* Normal Screen Sizing */
         @media screen and (max-width: 1800px) {
             .fancy label{
-                margin-left: 41.6%;
+                text-align: center;
             }
             .headerOne{
-                margin-left: 22%;
+                text-align: center;
             }
           }
 
         /* Normal Screen Sizing */
         @media screen and (max-width: 1750px) {
             .fancy label{
-                margin-left: 41.3%;
+                text-align: center;
             }
             .headerOne{
-                margin-left: 21%;
+                text-align: center;
             }
           }
 
@@ -188,10 +178,10 @@
         /* Normal Screen Sizing */
         @media screen and (max-width: 1700px) {
             .fancy label{
-                margin-left: 41.1%;
+                text-align: center;
             }
             .headerOne{
-                margin-left: 19%;
+                text-align: center;
             }
           }
 
@@ -199,10 +189,10 @@
                   /* Normal Screen Sizing */
         @media screen and (max-width: 1650px) {
             .fancy label{
-                margin-left: 40.8%;
+                text-align: center;
             }
             .headerOne{
-                margin-left: 19%;
+                text-align: center;
             }
           }
 
@@ -221,25 +211,20 @@
         padding: 20px 20px 20px 20px;
     }
     .fancy label{
-        color: rgb(0, 0, 0);
+        color: black;
         font-size: 40px;
         font-weight: 600;
-        margin-left: 40.2%;
+        text-align: center;
         z-index: 10;
     }
     .headerOne{
         color: gray;
         font-size: 30px;
-        font-weight: 600;
-        position: absolute;
+        font-weight: 600; 
         z-index: 10;
         margin-top: 100px;
-        margin-right: 10px;
-        margin-left: 35.7%;
-        margin-bottom: 10px;
-        position: center;
+        margin-left: 37%;
         text-align: center;
-        width: auto;
     }
   }
 
