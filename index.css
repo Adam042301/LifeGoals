@@ -27,11 +27,6 @@ body {
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
   }
   
-  /* Change the background color on mouse-over */
-  .button:hover {
-    background-color: #ebebeb;
-    border-radius: 15px;
-  }
   
   .column {
     float: left;
@@ -73,13 +68,11 @@ body {
   }
   
   
-  img:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
+  /* img:hover {
     animation: shake 2s;
   
-    /* When the animation is finished, start again */
     animation-iteration-count: infinite;
-  }
+  } */
   
   /* @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -127,7 +120,6 @@ body {
     outline: 0;
     display: inline-block;
     padding: 8px;
-    background-color: #ebebeb;
     color: #797979;
     text-align: center;
     cursor: pointer;
@@ -136,10 +128,12 @@ body {
   }
   
   .button:hover {
-    background-color: #ffffff;
-    color: #000;
+    border-radius: 15px;
+    transform: scale(1.025);
+    cursor: pointer;
+    transition: all 0.5s ease;
   }
-  
+
 
   /* MAC Sizing */
   @media screen and (max-width: 1700px) {

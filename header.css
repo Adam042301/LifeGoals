@@ -11,7 +11,7 @@
 .header a {
   background-color: white;
   float: left;
-  color: black;
+  color: #797979;
   text-align: right;
   margin-right: 12px;
   padding: 12px;
@@ -31,8 +31,10 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #ebebeb;
   border-radius: 15px;
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 /* Float the link section to the right */

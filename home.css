@@ -1,9 +1,7 @@
-
 body {
   font-family: sans-serif;
   margin: 5;
 }
-
 
 html {
   box-sizing: border-box;
@@ -14,11 +12,9 @@ html {
 }
 
 
-
 .button {
   background-color: white;
   float: left;
-  color: black;
   text-align: right;
   margin-right: 12px;
   padding: 12px;
@@ -32,8 +28,10 @@ html {
 
 /* Change the background color on mouse-over */
 .button:hover {
-  background-color: #ebebeb;
   border-radius: 15px;
+  transform: scale(1.025);
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 .column {
@@ -50,13 +48,11 @@ html {
   margin: 5px 10px 20px 10px;
 }
 
-img:hover {
-  /* Start the shake animation and make the animation last for 0.5 seconds */
+/* img:hover {
   animation: shake 2s;
 
-  /* When the animation is finished, start again */
   animation-iteration-count: infinite;
-}
+} */
 
 /* @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -104,17 +100,11 @@ img:hover {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  background-color: #ebebeb;
   color: #797979;
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-family: sans-serif;
-}
-
-.button:hover {
-  background-color: #ffffff;
-  color: #000;
 }
 
 
