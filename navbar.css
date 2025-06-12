@@ -33,9 +33,12 @@
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background-color: #ebebeb;
-  color: black;
+  color: rgb(138, 137, 137);
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
+
 
 /* Main content */
 .main {

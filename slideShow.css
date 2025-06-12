@@ -6,114 +6,99 @@ body {font-family: Verdana, sans-serif;}
 img[src="slideShowImages/skyDive.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid rgb(204, 204, 204);
 }
 
 img[src="slideShowImages/lasVegasStrip.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid rgb(204, 204, 204);
 }
 
 img[src="slideShowImages/capitalBuilding.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid rgb(204, 204, 204);
 }
 
 img[src="slideShowImages/whiteHouse.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid rgb(204, 204, 204);
 }
 
 img[src="slideShowImages/littleIsland.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid rgb(204, 204, 204);
 }
 
 img[src="slideShowImages/monument.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid rgb(204, 204, 204);
 }
 
 img[src="slideShowImages/falls.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid rgb(204, 204, 204);
 }
 
 img[src="slideShowImages/grandCanyon.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid #555;
-    border: 5px solid rgb(204, 204, 204);
 }
 
 img[src="slideShowImages/PCBuild.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid rgb(204, 204, 204);
 }
 
 img[src="slideShowImages/fish.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid rgb(204, 204, 204);
 }
 
 img[src="slideShowImages/gaming.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid rgb(204, 204, 204);
 }
 
 img[src="slideShowImages/beach.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid rgb(204, 204, 204);
 }
 
 img[src="slideShowImages/kansasCity.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid rgb(204, 204, 204);
 }
 
 img[src="slideShowImages/iceRink.png"] {
     animation: shake 0s;
     opacity: 1;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 40px;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-    border: 5px solid rgb(204, 204, 204);
 }
 
 /* Slideshow container */
@@ -144,7 +129,8 @@ img[src="slideShowImages/iceRink.png"] {
   font-weight: 600;
   padding: 30px 12px;
   position: absolute;
-  top: 0;
+  top: 5px;
+  left: 30px;
 }
 
 .active {

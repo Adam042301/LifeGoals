@@ -1,10 +1,11 @@
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #ebebeb;
+  background-color: #ffffff;
   padding: 30px 10px;
   font-family: sans-serif;
   margin-top: 43px;
+  box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
 }
 
 /* Style the header links */
@@ -19,7 +20,7 @@
   font-size: 20px;
   line-height: 25px;
   font-family: sans-serif;
-  border-radius: 15px;
+  border-radius: 40px;
   box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
 }
 
@@ -31,7 +32,7 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  border-radius: 15px;
+  border-radius: 40px;
   transform: scale(1.05);
   cursor: pointer;
   transition: all 0.5s ease;

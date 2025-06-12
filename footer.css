@@ -1,6 +1,13 @@
+/* footer {
+  background: linear-gradient(135deg, #cdcde9 0%, hsl(144, 75%, 65%) 100%);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+
 .footer-basic {
   padding:40px 0;
-  background-color:#ffffff;
   color:#4b4c4d;
   font-family: sans-serif;
   bottom: 0;
