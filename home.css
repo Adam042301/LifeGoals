@@ -54,6 +54,7 @@ html {
 
 /* Change the background color on mouse-over */
 .button:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
   transform: scale(1.025);
   cursor: pointer;
 }
@@ -90,7 +91,7 @@ html {
   img:hover {
     border-radius: 40px;
     transform: scale(1.02);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.534);
   }
 
 .container {
