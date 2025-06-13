@@ -6,6 +6,12 @@
   font-family: sans-serif;
   margin-top: 43px;
   box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+  transition: 0.5s;
+}
+
+.header:hover {
+  transform: scale(1.01);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
 }
 
 /* Style the header links */
@@ -36,6 +42,7 @@
   border-radius: 40px;
   transform: scale(1.05);
   cursor: pointer;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
 }
 
 /* Float the link section to the right */
