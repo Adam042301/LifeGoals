@@ -75,6 +75,7 @@ body {
     height: 300px;
     transition: 0.5s;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    object-fit: cover;
   }
 
   
