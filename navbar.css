@@ -35,7 +35,7 @@
 /* Change background on mouse-over */
 .navbar a:hover {
   color: rgb(138, 137, 137);
-  transform: scale(1.07);
+  transform: scale(1.2);
   cursor: pointer;
 }
 
