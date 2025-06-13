@@ -2,7 +2,7 @@
 /* Conic gradient */
 .fancy::before { 
     content: '';
-    background: conic-gradient(transparent 270deg, rgb(173, 173, 173), transparent);
+    background: conic-gradient(transparent 270deg, rgb(224, 224, 224), transparent);
     position: absolute;
     top: 50%;
     left: 50%;

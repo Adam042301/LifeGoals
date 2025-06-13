@@ -5,6 +5,7 @@ body {
   
   html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   
   *, *:before, *:after {
@@ -60,12 +61,22 @@ body {
     border-radius: 40px 40px 0px 0px; 
     height: 300px;
     width: 100%;
+    transition: 0.5s;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+  }
+
+  iframe:hover {
+    border-radius: 40px;
+    transform: scale(1.03);
   }
   
   img {
     border-radius: 40px 40px 0px 0px; 
     height: 300px;
+    transition: 0.5s;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
   }
+
   
   
   /* img:hover {
@@ -125,13 +136,13 @@ body {
     cursor: pointer;
     width: 100%;
     font-family: sans-serif;
+    transition: 0.25s;
   }
   
   .button:hover {
     border-radius: 40px;
     transform: scale(1.025);
     cursor: pointer;
-    transition: all 0.5s ease;
   }
 
 

@@ -22,6 +22,7 @@
   font-family: sans-serif;
   border-radius: 40px;
   box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+  transition: 0.25s;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -35,7 +36,6 @@
   border-radius: 40px;
   transform: scale(1.05);
   cursor: pointer;
-  transition: all 0.5s ease;
 }
 
 /* Float the link section to the right */

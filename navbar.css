@@ -11,7 +11,7 @@
 .navbar {
   overflow: hidden;
   background-color: #1d1c1c;
-  opacity: 0.9;
+  opacity: 0.85;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -29,14 +29,14 @@
   text-decoration: none;
   font-size: 13px;
   font-family: sans-serif;
+  transition: 0.25s;
 }
 
 /* Change background on mouse-over */
 .navbar a:hover {
   color: rgb(138, 137, 137);
-  transform: scale(1.05);
+  transform: scale(1.07);
   cursor: pointer;
-  transition: all 0.5s ease;
 }
 
 
