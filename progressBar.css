@@ -13,7 +13,7 @@
     animation: fade-in linear;
     animation: fade-out linear;
     animation-timeline: view();
-    animation-range: exit -200px;
+    animation-range: exit -100px;
   }
   
   @keyframes fade-out {

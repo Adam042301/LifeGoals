@@ -47,15 +47,14 @@ body {
     margin: 5px 10px 20px 10px;
     background-color: white;
     transition: 0.5s;
-    animation: fade-in linear;
+    animation: fade-out linear;
     animation-timeline: view();
-    animation-range: entry;
-    animation-range-end: 330px;
+    animation-range: exit -100px;
   }
   
-  @keyframes fade-in {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  @keyframes fade-out {
+    from {opacity: 1;}
+    to {opacity: 0;}
   }
   
   .card:hover {
@@ -87,14 +86,14 @@ body {
     width: 100%;
     transition: 0.5s;
     box-shadow: 0 10px 10px 0 rgba(116, 116, 116, 0.534);
-    animation: fade-in linear;
+    animation: fade-out linear;
     animation-timeline: view();
-    animation-range: entry;
+    animation-range: exit -100px;
   }
-
-  @keyframes fade-in {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  
+  @keyframes fade-out {
+    from {opacity: 1;}
+    to {opacity: 0;}
   }
 
   iframe:hover {
@@ -108,15 +107,14 @@ body {
     transition: 0.5s;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
     object-fit: cover;
-    animation: fade-in linear;
+    animation: fade-out linear;
     animation-timeline: view();
-    animation-range: entry;
-    animation-range-end: 330px;
+    animation-range: exit -100px;
   }
-
-  @keyframes fade-in {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  
+  @keyframes fade-out {
+    from {opacity: 1;}
+    to {opacity: 0;}
   }
 
   img:hover {
