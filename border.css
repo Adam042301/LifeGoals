@@ -26,7 +26,7 @@
     transition: 0.5s;
     animation: fade-out linear;
     animation-timeline: view();
-    animation-range: exit -300px;
+    animation-range: exit -200px;
   }
 
   @keyframes fade-out {

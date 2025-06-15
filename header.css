@@ -17,8 +17,10 @@
 /* Style the header links */
 .header a {
   background-color: white;
+  /* background-color: rgb(50, 125, 255); */
   float: left;
   color: #797979;
+  /* color: white; */
   text-align: right;
   margin-right: 12px;
   padding: 12px;
@@ -46,10 +48,14 @@
 }
 
 /* Float the link section to the right */
+.header-left {
+  float: left;
+  padding-left: 12px;
+}
+
 .header-right {
   float: left;
   padding-left: 12px;
-  font-weight: bold;
 }
 
 /* Tablet view Moving header down to allow room for navbar to take over space */

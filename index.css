@@ -1,6 +1,11 @@
 body {
     font-family: sans-serif;
     margin: 5;
+    /* background: linear-gradient(135deg, #cccce1 0%, hsl(173, 33%, 84%) 100%);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
   }
   
   html {
@@ -42,6 +47,15 @@ body {
     margin: 5px 10px 20px 10px;
     background-color: white;
     transition: 0.5s;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range: entry;
+    animation-range-end: 330px;
+  }
+  
+  @keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
   }
   
   .card:hover {
@@ -97,6 +111,7 @@ body {
     animation: fade-in linear;
     animation-timeline: view();
     animation-range: entry;
+    animation-range-end: 330px;
   }
 
   @keyframes fade-in {

@@ -9,6 +9,16 @@
     border: 3px solid rgb(40, 170, 0);
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
     transition: 0.5s;
+
+    animation: fade-in linear;
+    animation: fade-out linear;
+    animation-timeline: view();
+    animation-range: exit -200px;
+  }
+  
+  @keyframes fade-out {
+    from {opacity: 1;}
+    to {opacity: 0;}
   }
   
   #myBar {
