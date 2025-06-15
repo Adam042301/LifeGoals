@@ -2,7 +2,7 @@
 /* Conic gradient */
 .fancy::before { 
     content: '';
-    background: conic-gradient(transparent 270deg, rgb(224, 224, 224), transparent);
+    background: conic-gradient(transparent 270deg, rgb(207, 207, 207), transparent);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -14,7 +14,7 @@
 
 .fancy {
     --offset: 7px;
-    background: rgb(255, 255, 255);
+    background-color: rgb(239, 239, 239);
     border-radius: 40px;
     position: relative;
     height: 250px;
@@ -90,7 +90,6 @@
     @media screen and (max-width: 5000px) {
         .fancy {
             --offset: 7px;
-            background: rgb(255, 255, 255);
             position: relative;
             height: 250px;
             width: 97.4%;
@@ -213,7 +212,6 @@
   @media screen and (max-width: 1600px) {
     .fancy {
         --offset: 7px;
-        background: rgb(255, 255, 255);
         position: relative;
         height: 250px;
         width: auto;

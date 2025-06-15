@@ -1,7 +1,7 @@
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: rgb(239, 239, 239);
   padding: 30px 10px;
   font-family: sans-serif;
   margin-top: 43px;
@@ -16,7 +16,7 @@
 
 /* Style the header links */
 .header a {
-  background-color: white;
+  background-color: rgb(239, 239, 239);
   /* background-color: rgb(50, 125, 255); */
   float: left;
   color: #797979;
@@ -41,6 +41,7 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
+  background-color: white;
   border-radius: 40px;
   transform: scale(1.05);
   cursor: pointer;
