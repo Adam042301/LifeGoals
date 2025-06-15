@@ -269,7 +269,7 @@ img {
   /* Add media queries for responsivenes */
   .about-section {
     width: 91%;
-    height: 250px;
+    height: 200px;
   }
   .headerOne {
     font-size: 35px;
