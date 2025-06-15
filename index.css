@@ -73,6 +73,14 @@ body {
     width: 100%;
     transition: 0.5s;
     box-shadow: 0 10px 10px 0 rgba(116, 116, 116, 0.534);
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range: entry;
+  }
+
+  @keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
   }
 
   iframe:hover {
@@ -86,6 +94,14 @@ body {
     transition: 0.5s;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
     object-fit: cover;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range: entry;
+  }
+
+  @keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
   }
 
   img:hover {
