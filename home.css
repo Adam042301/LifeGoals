@@ -107,6 +107,7 @@ img {
   animation: fade-in linear;
   animation-timeline: view();
   animation-range: entry;
+  animation-range-start: -300px;
   animation-range-end: 20%;
 }
 
