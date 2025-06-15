@@ -16,6 +16,12 @@
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   z-index: 15;
+  transition: 0.5s;
+}
+
+.navbar:hover {
+  transform: scale(1.015);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
 }
 
 /* Links inside the navbar */
@@ -38,7 +44,6 @@
   transform: scale(1.2);
   cursor: pointer;
 }
-
 
 /* Main content */
 .main {
