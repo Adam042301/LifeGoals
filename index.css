@@ -16,22 +16,6 @@ body {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-
-   /* Style the header links */
-.button {
-    background-color: white;
-    float: left;
-    color: black;
-    text-align: right;
-    margin-right: 12px;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 25px;
-    font-family: sans-serif;
-    border-radius: 40px;
-    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-  }
   
   .column {
     float: left;
@@ -45,7 +29,7 @@ body {
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
     border-radius: 40px;
     margin: 5px 10px 20px 10px;
-    background-color: rgb(239, 239, 239);
+    background-color: white;
     transition: 0.5s;
     animation: fade-out linear;
     animation-timeline: view();
@@ -154,14 +138,17 @@ body {
     border: none;
     outline: 0;
     display: inline-block;
-    padding: 8px;
-    background-color: rgb(239, 239, 239);
+    padding: 12px;
+    background-color: white;
     color: #797979;
     text-align: center;
     cursor: pointer;
     width: 100%;
     font-family: sans-serif;
     transition: 0.25s;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    margin-right: 12px;
   }
   
   .button:hover {
