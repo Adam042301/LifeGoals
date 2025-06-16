@@ -6,20 +6,20 @@
   font-family: sans-serif;
   margin-top: 43px;
   box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-  transition: 0.5s;
+  /* transition: 0.5s; */
 }
 
-.header:hover {
+/* .header:hover {
   transform: scale(1.01);
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
-}
+} */
 
 /* Style the header links */
 .header a {
-  background-color:white;
+  background-color: rgb(25, 146, 251);
+  color: white;
   /* background-color: rgb(50, 125, 255); */
   float: left;
-  color: #797979;
   /* color: white; */
   text-align: right;
   margin-right: 12px;
@@ -33,15 +33,9 @@
   transition: 0.25s;
 }
 
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
-
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: white;
+  background-color: rgb(43, 156, 255);
   border-radius: 40px;
   transform: scale(1.05);
   cursor: pointer;

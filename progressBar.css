@@ -32,10 +32,10 @@
     font-weight: 500;
   }
 
-  #myProgress:hover {
+  /* #myProgress:hover {
     border-radius: 40px;
     transform: scale(1.01);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
-  }
+  } */
 
   /* Currently 6/9/2025 there are 44/117 goals complete */

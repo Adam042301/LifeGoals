@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="home.css">
     <link rel="icon" type="image/png" href="Images/One.png">
+    <script src="scroll.js" defer></script>
 
     <div class="header">
       <div class="header-left">
@@ -29,9 +30,6 @@
     
       <a href="food.html">Food</a>
     
-      <!--(Deer, Bird, Turkey) -->
-      <a href="theOutdoors.html">The Outdoors</a>
-    
       <!--(German, Guitar, College) -->
       <a href="learning.html">Learning</a>
     
@@ -49,6 +47,9 @@
     
       <!--(Olympics, NBA, World Cup, UFC, F1 in Miami) -->
       <a href="sports.html">Sports</a>
+
+      <!--(Deer, Bird, Turkey) -->
+      <a href="theOutdoors.html">The Outdoors</a>
     
       <!--(7 Wonders of the World, Continents, Cruise, London, France, Europe) -->
       <a href="travel.html">Travel</a>
@@ -57,6 +58,9 @@
   </head>
 
 <body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
   <div class="about-section">
     <div class="headerOne">
       <p>Travel</p>
@@ -64,103 +68,21 @@
    <div class="headerTwo">
       <p>Never Stop Traveling</p>
     </div>
-</div>
-
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="Images/USA.jpg" alt="USA" style="width:100%">
-      <div class="container">
-        <p class="test">United States of America</p>
-        <p class="title">States Traveled to: (Completed)</p>
-        <p>Michigan (Live)</p>
-        <p>New York City, (Vacation)</p>
-        <p>Ohio (Wedding)</p>
-        <p>Indiana (Cross Over)</p>
-        <p>Illinois (Chicago)</p>
-        <p>Wisconsin (Wisconsin Dells)</p>
-        <p>Minnesota (Mall of America)</p>
-        <p>North Carolina (Family Reunion)</p>
-        <p>Flordia (Fort Meyers, Orlando)</p> 
-        <p>Alabama (Family Reunion)</p>
-        <p>Colorado (Family Reunion)</p>
-        <p>Missouri (Kansas City)</p>
-        <p>Nevada (Las Vegas)</p>
-        <p>Arizona (Grand Canyon)</p>
-        <p>Washington DC (The Capital Building)</p>
-        <p>New Jersey (Vacation)</p>
-        <br>
-        <p class="title">States I Want to Travel to:</p>
-        <p>Texas</p>
-        <p>California</p>
-        <p>Washington</p>
-        <p>Alaska</p>
-        <p>Hawaii</p>
-        <p>Maine</p>
-        <br><br>
-        <a href="#"><button class="button">Back to Top</button></a>
-      </div>
-    </div>
   </div>
 
-    <div class="column">
-      <div class="card">
-        <img src="Images/Countries.webp" alt="Countries" style="width:100%">
-        <div class="container">
-          <p class="test">Countries</p>
-          <p class="title">I've Been to: (Completed)</p>
-          <p>Canada, 2024 (Niagara Falls, Toronto)</p>
-          <p>Mexico, 2024 (Cozumel, Costa Maya, Cabo San Lucas)</p>
-          <br>
-          <p class="title">I Want to Travel to:</p>
-          <p>Japan</p>
-          <p>Singapore</p>
-          <p>Italy</p>
-          <p>Greece</p>
-          <p>Iceland</p>
-          <p>India</p>
-          <p>Dubai, United Arab Emirates</p>
-          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-          <a href="#"><button class="button">Back to Top</button></a>
-        </div>
-      </div>
-    </div>
+
 
     <div class="column">
       <div class="card">
-        <img src="Images/Wonders.webp" alt="Wonders" style="width:100%">
+        <img src="Images/lasVegas.jpeg" alt="Las Vegas" style="width:100%">
         <div class="container">
-          <p class="test">Wonders of the World</p>
-          <p class="title">All 7 Wonders</p>
-          <p>1. Great Wall of China - Huairou District, China</p>
-          <p>2. Chichen Itza - Yucatan Peninsula, Mexico</p>
-          <p>3. Petra - Petra, Jordan</p>
-          <p>4. Machu Picchu - Cuzco, Peru</p>
-          <p>5. Christ the Redeemer - Rio de Janeiro, Brazil</p>
-          <p>6. Roman Colosseum - Rome, Italy</p>
-          <p>7. Taj Mahal - Agra, India</p>
-          <a href="#"><button class="button">Back to Top</button></a>
+          <p class="test">Las Vegas (Completed)</p>
+          <p class="title">Nevada</p>
+          <p>The Horse Shoe</p>
+          <p>2025</p>
         </div>
       </div>
     </div>
-  
-      <div class="column">
-        <div class="card">
-          <img src="Images/7Continents.webp" alt="7Continents" style="width:100%">
-          <div class="container">
-            <p class="test">Continents</p>
-            <p class="title">All 7 Continents</p>
-            <p>1. North America</p>
-            <p>2. South America</p>
-            <p>3. Australia</p>
-            <p>4. Africa</p>
-            <p>5. Europe</p>
-            <p>6. Asia</p>
-            <p>7. Antarctica</p>
-            <a href="#"><button class="button">Back to Top</button></a>
-          </div>
-        </div>
-      </div>
 
     <div class="column">
       <div class="card">
@@ -170,48 +92,6 @@
           <p class="title">Paris</p>
           <p>Eiffel Tower</p>
           <p>Luxembourg Gardens</p>
-          <p>New Foods</p>
-          <a href="#"><button class="button">Back to Top</button></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="Images/lasVegas.jpeg" alt="Las Vegas" style="width:100%">
-        <div class="container">
-          <p class="test">Las Vegas (Completed)</p>
-          <p class="title">Nevada</p>
-          <p>The Horse Shoe</p>
-          <p>Vacation</p>
-          <p>2025</p>
-          <a href="#"><button class="button">Back to Top</button></a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="column">
-      <div class="card">
-        <img src="Images/disney.avif" alt="Disney World" style="width:100%">
-        <div class="container">
-          <p class="test">Walt Disney World</p>
-          <p class="title"></p>
-          <p>Orlando FL, Walt Disney World</p>
-          <br><br><br><br><br>
-          <a href="#"><button class="button">Back to Top</button></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="Images/disneyland.avif" alt="Disneyland" style="width:100%">
-        <div class="container">
-          <p class="test">Disneyland</p>
-          <p class="title"></p>
-          <p>Anaheim, CA, Disneyland Park</p>
-          <br><br><br>
-          <a href="#"><button class="button">Back to Top</button></a>
         </div>
       </div>
     </div>
@@ -224,11 +104,11 @@
           <p class="title">Family</p>
           <p>Castle</p>
           <p>K Town</p>
-          <a href="#"><button class="button">Back to Top</button></a>
         </div>
       </div>
     </div>
 
+    <div class="row">
     <div class="column">
       <div class="card">
         <img src="Images/opera.jpg" alt="Opera House" style="width:100%">
@@ -236,12 +116,12 @@
           <p class="test">Sydney Opera House</p>
           <p class="title">Australia</p>
           <p>Vacation</p>
-          <p>Photos</p><br>
-          <a href="#"><button class="button">Back to Top</button></a>
+          <p>Photos</p>
+          <p>Animals</p>
         </div>
       </div>
     </div>
-
+  
     <div class="column">
       <div class="card">
         <img src="Images/Cruise.jpg" alt="Cruise" style="width:100%">
@@ -251,7 +131,6 @@
           <p>Cozumel, Mexico</p>
           <p>Costa Maya, Mexico</p>
           <p>Ocean Cay, Bahamas</p>
-          <a href="#"><button class="button">Back to Top</button></a>
         </div>
       </div>
     </div>
@@ -265,7 +144,33 @@
           <p>Tour Bus</p>
           <p>Vacation</p>
           <p>2025</p>
-          <a href="#"><button class="button">Back to Top</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="Images/disneyland.avif" alt="Disneyland" style="width:100%">
+        <div class="container">
+          <p class="test">Disneyland</p>
+          <p class="title">California</p>
+          <p>Anaheim, California</p>
+          <p>Disneyland Park</p>
+          <p>Childhood</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="Images/disney.avif" alt="Disney World" style="width:100%">
+        <div class="container">
+          <p class="test">Walt Disney World</p>
+          <p class="title">Flordia</p>
+          <p>Orlando Flordia</p>
+          <p>Walt Disney World</p>
+          <p>Childhood</p>
         </div>
       </div>
     </div>
@@ -279,7 +184,6 @@
             <p>Fish and Chips</p>
             <p>Big Ben</p>
             <p>Buckingham Palace</p>
-            <a href="#"><button class="button">Back to Top</button></a>
           </div>
         </div>
       </div>
@@ -293,7 +197,6 @@
             <p>Coral Sea, off the coast of Queensland</p>
             <p>Largest coral reef complex</p>
             <p>Photos</p>
-            <a href="#"><button class="button">Back to Top</button></a>
           </div>
         </div>
       </div>
@@ -307,7 +210,6 @@
               <p>Keep a rock from there</p>
               <p>Photos</p>
               <p>Hike</p>
-              <a href="#"><button class="button">Back to Top</button></a>
             </div>
           </div>
         </div>
@@ -321,7 +223,6 @@
                 <p>Photos</p>
                 <p>Site see</p>
                 <p>2024</p>
-                <a href="#"><button class="button">Back to Top</button></a>
               </div>
             </div>
           </div>
@@ -335,7 +236,6 @@
                   <p>Largest aquarium in the US</p>
                   <p>Travel to Georgia</p>
                   <p>Vacation</p>
-                  <a href="#"><button class="button">Back to Top</button></a>
                 </div>
               </div>
             </div>
@@ -349,7 +249,6 @@
                     <p>Best zoo in the US</p>
                     <p>Photos</p>
                     <p>Vacation</p>
-                    <a href="#"><button class="button">Back to Top</button></a>
                   </div>
                 </div>
               </div>
@@ -363,7 +262,6 @@
                       <p>From Night of the Museum</p>
                       <p>Dinosaurs</p>
                       <p>Photos</p>
-                      <a href="#"><button class="button">Back to Top</button></a>
                     </div>
                   </div>
                 </div>
@@ -377,11 +275,98 @@
                       <p>Washington Monument</p>
                       <p>The White House</p>
                       <p>Capital Building</p>
-                      <a href="#"><button class="button">Back to Top</button></a>
                     </div>
                   </div>
                 </div>
-  </div>
+
+                <div class="column">
+                  <div class="card">
+                    <img src="Images/7Continents.webp" alt="7Continents" style="width:100%">
+                    <div class="container">
+                      <p class="test">Continents</p>
+                      <p class="title">All 7 Continents</p>
+                      <p>1. North America</p>
+                      <p>2. South America</p>
+                      <p>3. Australia</p>
+                      <p>4. Africa</p>
+                      <p>5. Europe</p>
+                      <p>6. Asia</p>
+                      <p>7. Antarctica</p>
+                    </div>
+                  </div>
+                </div>
+              
+                  <div class="column">
+                    <div class="card">
+                      <img src="Images/Wonders.webp" alt="Wonders" style="width:100%">
+                      <div class="container">
+                        <p class="test">Wonders of the World</p>
+                        <p class="title">All 7 Wonders</p>
+                        <p>1. Great Wall of China - Huairou District, China</p>
+                        <p>2. Chichen Itza - Yucatan Peninsula, Mexico</p>
+                        <p>3. Petra - Petra, Jordan</p>
+                        <p>4. Machu Picchu - Cuzco, Peru</p>
+                        <p>5. Christ the Redeemer - Rio de Janeiro, Brazil</p>
+                        <p>6. Roman Colosseum - Rome, Italy</p>
+                        <p>7. Taj Mahal - Agra, India</p>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="column">
+                    <div class="card">
+                      <img src="Images/Countries.webp" alt="Countries" style="width:100%">
+                      <div class="container">
+                        <p class="test">Countries</p>
+                        <p class="title">I've Been to: (Completed)</p>
+                        <p>Canada, 2024 (Niagara Falls, Toronto)</p>
+                        <p>Mexico, 2024 (Cozumel, Costa Maya, Cabo San Lucas)</p>
+                        <br>
+                        <p class="title">I Want to Travel to:</p>
+                        <p>Japan</p>
+                        <p>Singapore</p>
+                        <p>Italy</p>
+                        <p>Greece</p>
+                        <p>Iceland</p>
+                        <p>India</p>
+                        <p>Dubai, United Arab Emirates</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="column">
+                    <div class="card">
+                      <img src="Images/USA.jpg" alt="USA" style="width:100%">
+                      <div class="container">
+                        <p class="test">United States of America</p>
+                        <p class="title">States Traveled to: (Completed)</p>
+                        <p>Michigan (Live)</p>
+                        <p>New York City, (Vacation)</p>
+                        <p>Ohio (Wedding)</p>
+                        <p>Indiana (Cross Over)</p>
+                        <p>Illinois (Chicago)</p>
+                        <p>Wisconsin (Wisconsin Dells)</p>
+                        <p>Minnesota (Mall of America)</p>
+                        <p>North Carolina (Family Reunion)</p>
+                        <p>Flordia (Fort Meyers, Orlando)</p> 
+                        <p>Alabama (Family Reunion)</p>
+                        <p>Colorado (Family Reunion)</p>
+                        <p>Missouri (Kansas City)</p>
+                        <p>Nevada (Las Vegas)</p>
+                        <p>Arizona (Grand Canyon)</p>
+                        <p>Washington DC (The Capital Building)</p>
+                        <p>New Jersey (Vacation)</p>
+                        <br>
+                        <p class="title">States I Want to Travel to:</p>
+                        <p>Texas</p>
+                        <p>California</p>
+                        <p>Washington</p>
+                        <p>Alaska</p>
+                        <p>Hawaii</p>
+                        <p>Maine</p>
+                      </div>
+                    </div>
+                  </div>
             
 
   </body>
