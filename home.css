@@ -128,8 +128,8 @@ img {
   outline: 0;
   display: inline-block;
   padding: 12px;
-  background-color: white;
-  color: #797979;
+  background-color: rgb(25, 146, 251);
+  color: white;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -142,7 +142,7 @@ img {
 
 /* Change the background color on mouse-over */
 .button:hover {
-  background-color: white;
+  background-color: rgb(43, 156, 255);
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
   transform: scale(1.025);
   cursor: pointer;
