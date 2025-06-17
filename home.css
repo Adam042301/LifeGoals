@@ -301,5 +301,11 @@ img {
   img {
     height: 200px;
   }
+  #myBtn {
+      padding: 12px;
+  }
+  button{
+    padding: 12px;
+  }
 }
 

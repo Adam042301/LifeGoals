@@ -207,8 +207,13 @@ body {
       width: 100%;
       display: block;
     }
-  }
-  
+     #myBtn {
+      padding: 12px;
+    }
+     button{
+      padding: 12px;
+    }
+}
   
   
   
