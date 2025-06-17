@@ -120,25 +120,26 @@ body {
     border: none;
     outline: 0;
     display: inline-block;
-    padding: 12px;
-    background-color: rgb(25, 146, 251);
-    color: #797979;
+    padding: 13px 20px 13px 20px;
+    background-color: White;
+    border: 2px rgb(25, 146, 251);
+    color: rgb(25, 146, 251);
+    border-style: solid;
     text-align: center;
     cursor: pointer;
     width: 100%;
     font-family: sans-serif;
     transition: 0.25s;
     border-radius: 40px;
-    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
     margin-right: 12px;
   }
   
   .button:hover {
-    background-color: rgb(43, 156, 255);
+    background-color: rgb(25, 146, 251);
+    color: white;
     border-radius: 40px;
     transform: scale(1.025);
     cursor: pointer;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
   }
 
   #myBtn {
@@ -155,7 +156,7 @@ body {
     background-color: rgb(25, 146, 251);
     color: white;
     cursor: pointer;
-    padding: 12px;
+    padding: 13px 20px 13px 20px;
     border-radius: 40px;
     transition: .25s;
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
