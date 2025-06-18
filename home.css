@@ -278,7 +278,7 @@ img {
 
 
 /* IPhone Sizing */
-@media screen and (max-width: 497px) {
+@media screen and (max-width: 500px) {
   /* Add media queries for responsivenes */
   .about-section {
     width: 91%;
