@@ -175,6 +175,20 @@ img {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
 }
 
+/* Manually eidting about images to not have any transform/hover effects */
+/* 
+img[src="aboutImages/test.png"] {
+    border-radius: 40px;
+    transform: none;
+    box-shadow: 0;
+}
+
+img:hover[src="aboutImages/test.png"] {
+    transform: none;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+} */
+
+
     /* PC Sizing */
 @media screen and (max-width: 5000px) {
   .about-section {
