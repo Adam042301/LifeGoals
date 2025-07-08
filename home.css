@@ -166,13 +166,13 @@ img {
   padding: 13px 20px 13px 20px;
   border-radius: 40px;
   transition: .25s;
-  box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+  /* box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534); */
 }
 
 #myBtn:hover {
-  background-color: rgb(43, 156, 255);
+  background-color: rgb(57, 162, 253);
   transform: scale(1.025);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
+  /* box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534); */
 }
 
 /* Manually eidting about images to not have any transform/hover effects */
