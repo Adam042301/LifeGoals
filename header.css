@@ -36,8 +36,7 @@
 /* Change the background color on mouse-over */
 .header a:hover {
   background-color: rgb(57, 162, 253);
-  border-radius: 40px;
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
   cursor: pointer;
   /* box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534); */
 }

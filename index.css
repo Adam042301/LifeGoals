@@ -136,8 +136,7 @@ body {
   .button:hover {
     background-color: rgb(25, 146, 251);
     color: white;
-    border-radius: 40px;
-    transform: scale(1.025);
+    /* transform: scale(1.025); */
     cursor: pointer;
   }
 
@@ -163,7 +162,7 @@ body {
   
   #myBtn:hover {
     background-color: rgb(57, 162, 253);;
-    transform: scale(1.025);
+    /* transform: scale(1.025); */
     /* box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534); */
   }
 
