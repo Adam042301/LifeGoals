@@ -6,7 +6,7 @@
     margin-top: 20px;
     margin-bottom: 3px;
     margin-right: 20px;
-    border: 3px solid rgb(214, 214, 214);
+    border: 3px solid rgb(25, 146, 251);
     /* border: 3px solid rgb(204, 204, 204); */
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
     transition: 0.5s;
@@ -25,13 +25,14 @@
   #myBar {
     width: 37%;
     height: 30px;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(25, 146, 251);
+    /* background-color: rgb(214, 214, 214); */
     /* background-color: rgb(204, 204, 204); */
     text-align: center;
     line-height: 30px;
     color: white;
     border-radius: 11px;
-    font-weight: 700;
+    font-weight: 600;
   }
 
   /* #myProgress:hover {
