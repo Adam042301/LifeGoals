@@ -128,8 +128,8 @@ img {
   display: inline-block;
   padding: 13px 20px 13px 20px;
   background-color: White;
-  border:  rgb(255, 150, 23);
-  color:  rgb(255, 150, 23);
+  border:  rgb(25, 146, 251);
+  color:  rgb(25, 146, 251);
   border-style: solid;
   text-align: center;
   cursor: pointer;
@@ -142,7 +142,7 @@ img {
 
 /* Change the background color on mouse-over */
 .button:hover {
-  background-color:  rgb(255, 150, 23);
+  background-color:  rgb(25, 146, 251);
   color: white;
   /* transform: scale(1.025); */
   cursor: pointer;
@@ -159,7 +159,7 @@ img {
   font-size: 20px;
   border: none;
   outline: none;
-  background-color:  rgb(255, 150, 23);
+  background-color:  rgb(25, 146, 251);
   color: white;
   cursor: pointer;
   padding: 13px 20px 13px 20px;
@@ -169,7 +169,7 @@ img {
 }
 
 #myBtn:hover {
-  background-color: rgb(255, 212, 104);
+  background-color: rgb(57, 162, 253);
   /* transform: scale(1.025); */
   /* box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534); */
 }

@@ -78,7 +78,7 @@ body {
     animation-range: exit -100px;
   }
 
-img[src="Logo/ODDOLogo.png"] {
+img[src="Logo/Thick.png"] {
     opacity: 1;
     border-radius: 0;
     box-shadow: none;
@@ -87,7 +87,7 @@ img[src="Logo/ODDOLogo.png"] {
     float: left;
 }
 
-img:hover[src="Logo/ODDOLogo.png"] {
+img:hover[src="Logo/Thick.png"] {
     opacity: 1;
     border-radius: 0;
     box-shadow: none;
@@ -138,9 +138,9 @@ img:hover[src="Logo/ODDOLogo.png"] {
     display: inline-block;
     padding: 13px 20px 13px 20px;
     background-color: White;
-    border:  rgb(255, 150, 23);
+    border:  rgb(25, 146, 251);
     /* border: 2px rgb(25, 146, 251); */
-    color: rgb(255, 150, 23);
+    color: rgb(25, 146, 251);
     /* color: rgb(25, 146, 251); */
     border-style: solid;
     text-align: center;
@@ -153,7 +153,7 @@ img:hover[src="Logo/ODDOLogo.png"] {
   }
   
   .button:hover {
-    background-color:  rgb(255, 150, 23);
+    background-color:  rgb(25, 146, 251);
     /* background-color: rgb(25, 146, 251); */
     color: white;
     /* transform: scale(1.025); */
@@ -171,7 +171,7 @@ img:hover[src="Logo/ODDOLogo.png"] {
     font-size: 20px;
     border: none;
     outline: none;
-    background-color: rgb(255, 150, 23);
+    background-color: rgb(25, 146, 251);
     /* background-color: rgb(25, 146, 251); */
     color: white;
     cursor: pointer;
@@ -182,7 +182,7 @@ img:hover[src="Logo/ODDOLogo.png"] {
   }
   
   #myBtn:hover {
-    background-color: rgb(255, 212, 104);
+    background-color: rgb(57, 162, 253);
     /* background-color: rgb(57, 162, 253); */
     /* transform: scale(1.025); */
     /* box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534); */

@@ -16,9 +16,8 @@
 
 /* Style the header links */
 .header a {
-  background-color: rgb(255, 150, 23);
-  /* background-color: rgb(241, 185, 44); */
-  /* background-color: rgb(25, 146, 251); */
+  /* background-color: rgb(255, 150, 23); */
+  background-color: rgb(25, 146, 251);
   color: white;
   /* background-color: rgb(50, 125, 255); */
   float: left;
@@ -37,8 +36,8 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: rgb(255, 212, 104);
-  /* background-color: rgb(57, 162, 253); */
+  /* background-color: rgb(255, 212, 104); */
+  background-color: rgb(57, 162, 253);
   /* transform: scale(1.05); */
   cursor: pointer;
   /* box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534); */
