@@ -78,7 +78,7 @@ body {
     animation-range: exit -100px;
   }
 
-img[src="Logo/ODDO Logo (8).png"] {
+/* img[src="Logo/ODDO Logo (8).png"] {
     opacity: 1;
     border-radius: 0;
     box-shadow: none;
@@ -93,7 +93,7 @@ img:hover[src="Logo/ODDO Logo (8).png"] {
     box-shadow: none;
     transform: none;
     animation: none;
-}
+} */
   
   @keyframes fade-out {
     from {opacity: 1;}

@@ -55,6 +55,23 @@
 }
 
 
+img[src="Logo/ODDO Logo (8).png"] {
+    opacity: 1;
+    border-radius: 0;
+    box-shadow: none;
+    transform: none;
+    animation: none;
+    float: right;
+}
+
+img:hover[src="Logo/ODDO Logo (8).png"] {
+    opacity: 1;
+    border-radius: 0;
+    box-shadow: none;
+    transform: none;
+    animation: none;
+}
+
 
 /* Tablet view Moving header down to allow room for navbar to take over space */
 @media screen and (max-width: 1200px){
@@ -74,7 +91,7 @@
         }
         .header a {
           /* width: 440px; */
-          display: block;
+          /* display: block; */
           text-align: center;
         }
       }
