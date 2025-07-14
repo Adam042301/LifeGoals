@@ -99,10 +99,12 @@
   }
   .header-left {
   padding-left: -12px;
+  margin-left: -10px;
 }
 
 .header-right {
   padding-left: -12px;
+  margin-left: -10px;
 }
 }
 
