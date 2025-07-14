@@ -61,7 +61,7 @@ img[src="Logo/ODDO Logo (8).png"] {
     box-shadow: none;
     transform: none;
     animation: none;
-    float: right;
+    float: left;
 }
 
 img:hover[src="Logo/ODDO Logo (8).png"] {
@@ -113,7 +113,7 @@ img:hover[src="Logo/ODDO Logo (8).png"] {
     margin-left: 4px;
     /* margin-left: 20px; */
     /* border: 2px rgb(25, 146, 251); */
-    background-color: rgb(216, 30, 223);
+    background-color: rgb(204, 174, 75);
   }
   .header-left {
   padding-left: -12px;
@@ -124,5 +124,7 @@ img:hover[src="Logo/ODDO Logo (8).png"] {
   padding-left: -12px;
   margin-left: -20px;
 }
+
+
 }
 
