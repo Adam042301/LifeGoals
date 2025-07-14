@@ -120,8 +120,8 @@ img:hover[src="Logo/ODDO Logo (8).png"] {
   }
   .header-left {
   padding-left: -12px;
-  margin-left: 4px;
-  /* was at -2 */
+  margin-left: 3px;
+  /* was at 4 last */
 }
 
 .header-right {
@@ -130,8 +130,8 @@ img:hover[src="Logo/ODDO Logo (8).png"] {
 }
 
 img[src="Logo/ODDO Logo (8).png"] {
-    width: 15.6%; 
-    /* Was at 16 */
+    width: 15.7%; 
+    /* Was at 15.6 last */
 }
 
 }
