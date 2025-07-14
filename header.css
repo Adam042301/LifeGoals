@@ -98,11 +98,11 @@
     /* border: 2px rgb(25, 146, 251); */
   }
   .header-left {
-  padding-left: 3px;
+  padding-left: -3px;
 }
 
 .header-right {
-  padding-left: 3px;
+  padding-left: -3px;
 }
 }
 
