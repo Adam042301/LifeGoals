@@ -116,12 +116,12 @@ img:hover[src="Logo/ODDO Logo (8).png"] {
     margin-left: 4px;
     /* margin-left: 20px; */
     /* border: 2px rgb(25, 146, 251); */
-    background-color: rgb(255, 43, 149);
+    background-color: rgb(25, 146, 251);
   }
   .header-left {
   padding-left: -12px;
-  margin-left: -2px;
-  /* was at -5 */
+  margin-left: 4px;
+  /* was at -2 */
 }
 
 .header-right {
