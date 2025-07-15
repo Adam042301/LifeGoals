@@ -63,8 +63,9 @@ img[src="Logo/ODDO Logo (8).png"] {
     animation: none;
     float: left;
     height: 100%; 
-    width: 8%; 
+    width: 7.9%; 
     /*was 7.8 last. if ios width is off chnage back to last percentage*/
+    /*8% width is slightly too big after zooming inti the ilad screen*/
     object-fit: contain;
 }
 
