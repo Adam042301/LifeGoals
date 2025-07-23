@@ -78,6 +78,28 @@ img:hover[src="Logo/ODDO Logo (14).png"] {
 }
 
 
+img[src="Logo/ODDO Logo (15).png"] {
+    opacity: 1;
+    border-radius: 0;
+    box-shadow: none;
+    transform: none;
+    animation: none;
+    float: left;
+    height: 100%; 
+    width: 8.15%; 
+    /*was 7.8 last. if ios width is off chnage back to last percentage*/
+    /*8% width is slightly too big after zooming inti the ilad screen*/
+    object-fit: contain;
+}
+
+img:hover[src="Logo/ODDO Logo (15).png"] {
+    opacity: 1;
+    border-radius: 0;
+    box-shadow: none;
+    transform: none;
+    animation: none;
+}
+
 img[src="Logo/ODDO Logo (13).png"] {
     opacity: 1;
     border-radius: 0;
