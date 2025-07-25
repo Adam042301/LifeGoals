@@ -318,7 +318,7 @@ img:hover[src="aboutImages/test.png"] {
     padding: 13px;
     border: 2px rgb(25, 146, 251);
   }
-  button{
+  .button{
     padding: 13px;
   }
 }

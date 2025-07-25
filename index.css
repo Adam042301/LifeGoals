@@ -78,23 +78,6 @@ body {
     animation-range: exit -100px;
   }
 
-/* img[src="Logo/ODDO Logo (8).png"] {
-    opacity: 1;
-    border-radius: 0;
-    box-shadow: none;
-    transform: none;
-    animation: none;
-    float: left;
-}
-
-img:hover[src="Logo/ODDO Logo (8).png"] {
-    opacity: 1;
-    border-radius: 0;
-    box-shadow: none;
-    transform: none;
-    animation: none;
-} */
-  
   @keyframes fade-out {
     from {opacity: 1;}
     to {opacity: 0;}
@@ -234,7 +217,7 @@ img:hover[src="Logo/ODDO Logo (8).png"] {
       padding: 13px;
       border: 2px rgb(25, 146, 251);
     }
-     button{
+     .button{
       padding: 13px;
     }
 }
