@@ -82,7 +82,7 @@ html {
   }
   
   @keyframes moveOne {
-    0% {left:-30px; top:0px;}
+    0% {left:-20px; top:0px;}
     100% {left:0px; top:0px;}
   }
 
@@ -94,7 +94,7 @@ html {
   }
   
   @keyframes moveTwo {
-    0% {left:-50px; top:0px;}
+    0% {left:-40px; top:0px;}
     100% {left:0px; top:0px;}
   }
 
