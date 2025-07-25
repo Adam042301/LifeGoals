@@ -75,7 +75,8 @@ img[src="Logo/ODDO Logo (15).png"] {
 }
 
 @keyframes moveLogo {
-  0%   {left:-35px; top:0px;}
+  0%   {left:-72px; top:0px;}
+  /* was left -35 */
   100% {left:0px; top:0px;}
 }
 
