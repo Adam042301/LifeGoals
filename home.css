@@ -74,6 +74,29 @@ html {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
 } */
 
+.headerOne {
+    position: relative;
+    animation-name: moveOne;
+    animation-duration: 1s;
+  }
+  
+  @keyframes moveOne {
+    0% {left:-35px; top:0px;}
+    100% {left:0px; top:0px;}
+  }
+
+.headerTwo {
+    color: rgb(161, 161, 161);
+    position: relative;
+    animation-name: moveTwo;
+    animation-duration: 1s;
+  }
+  
+  @keyframes moveTwo {
+    0% {left:-75px; top:0px;}
+    100% {left:0px; top:0px;}
+  }
+
 img {
   border-radius: 40px 40px 0px 0px; 
   height: 275px;
@@ -106,7 +129,8 @@ img {
   font-weight: bold;
   font-size: 30px;
   font-family: sans-serif;
-}
+  }
+  
 
 .title {
   color: grey;
@@ -206,7 +230,6 @@ img:hover[src="aboutImages/test.png"] {
   .headerTwo {
     font-size: 30px;
     width: 99.3%;
-    color: gray;
     font-weight: 550;
   }
   iframe {
@@ -236,7 +259,6 @@ img:hover[src="aboutImages/test.png"] {
   .headerTwo {
     font-size: 30px;
     font-weight: 550;
-    color: gray;
   }
   iframe {
     height: 250px;
@@ -276,7 +298,6 @@ img:hover[src="aboutImages/test.png"] {
   }
   .headerTwo {
     font-size: 27px;
-    color: gray;
     font-weight: 550;
   }
   .column {
@@ -304,7 +325,6 @@ img:hover[src="aboutImages/test.png"] {
   }
   .headerTwo {
     font-size: 27px;
-    color: gray;
     font-weight: 550;
   }
   .column {
@@ -319,7 +339,8 @@ img:hover[src="aboutImages/test.png"] {
     border: 2px rgb(25, 146, 251);
   }
   .button{
-    padding: 13px;
+    padding: 10px;
+    /* was 13 last */
   }
 }
 
