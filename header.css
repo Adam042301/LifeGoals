@@ -95,7 +95,7 @@
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
-  z-index: 100;
+  z-index: 50;
   border-radius: 40px;
 }
 
@@ -232,20 +232,9 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
   margin-left: -15px;
 }
 
-img[src="Logo/ODDO Logo (8).png"] {
-    width: 15.7%; 
-    /* Was at 15.6 last */
-}
-
-img[src="Logo/ODDO Logo (14).png"] {
-    width: 15.7%; 
-    /* Was at 15.6 last */
-}
-
 img[src="Logo/ODDO Logo (15).png"] {
     width: 15%; 
     /* Was at 15.2 last */
 }
 
 }
-
