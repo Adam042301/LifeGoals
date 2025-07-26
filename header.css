@@ -197,7 +197,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
 @media screen and (max-width: 500px) {
   .header {
     width: 100%;
-    z-index: 90;
+    z-index: 50;
     /* margin-top: -110px; */
     position: fixed;
   }
@@ -243,8 +243,8 @@ img[src="Logo/ODDO Logo (14).png"] {
 }
 
 img[src="Logo/ODDO Logo (15).png"] {
-    width: 15.2%; 
-    /* Was at 15.6 last */
+    width: 15%; 
+    /* Was at 15.2 last */
 }
 
 }
