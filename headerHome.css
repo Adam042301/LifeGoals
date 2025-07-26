@@ -196,7 +196,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
 @media screen and (max-width: 500px) {
   .header {
     width: 100%;
-    z-index: 50;
+    z-index: 100;
     /* margin-top: -110px; */
     position: fixed;
   }
@@ -209,7 +209,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
     margin-left: 4px;
     /* margin-left: 20px; */
     /* border: 2px rgb(25, 146, 251); */
-    background-color: rgb(25, 146, 251);
+    /* background-color: rgb(25, 146, 251); */
   }
   .header-left {
   padding-left: -12px;
