@@ -222,6 +222,7 @@ img:hover[src="aboutImages/test.png"] {
     width: 98.1%;
     float: center;
     margin: 20px 0px 10px 18px;
+    margin-top: 134px;
   }
   .headerOne {
     font-size: 40px;
@@ -252,6 +253,7 @@ img:hover[src="aboutImages/test.png"] {
     width: auto;
     float: center;
     margin: 20px 18px 10px 18px;
+    margin-top: 135px;
   }
   .headerOne {
     font-size: 40px;
