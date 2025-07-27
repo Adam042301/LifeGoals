@@ -86,7 +86,6 @@
   position: relative;
   display: inline-block;
   border-radius: 40px;
-  z-index: 100;
 }
 
 .dropdown-content {
@@ -118,7 +117,6 @@
   font-size: 20px;
   line-height: 25px;
   font-family: sans-serif;
-  z-index: 100;
 }
 
 .dropdown-content a:hover {
