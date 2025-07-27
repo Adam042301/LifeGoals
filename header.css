@@ -42,6 +42,7 @@
   font-family: sans-serif;
   border-radius: 40px;
   transition: 0.25s;
+  
 }
 
 /* Change the background color on mouse-over */
@@ -131,7 +132,7 @@
 }
 
 .dropdown:hover .dropbtn {
-  background-color: rgb(44, 155, 253);
+  background-color: rgb(57, 162, 253);
   border-radius: 40px;
 }
 
@@ -191,54 +192,6 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
         }
       }
 
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-/* @media screen and (max-width: 500px) {
-  .header {
-    width: 100%;
-    z-index: 50;
-    position: fixed;
-  }
-
-  .header a {
-    text-align: center;
-    padding: 12px;
-
-    margin-left: -6px;
-
-  }
-
-  .header-left {
-  
-  margin-left: -6px;
-}
-
-.dropbtn {
-  padding: 12px;
-  margin-left: -6px;
-}
-
-.dropdown-content {
-  z-index: 100;
-  border-radius: 40px;
-  padding: 20;
-}
-
-.dropdown-content a {
-  border-radius: 40px;
-  padding: 20;
-}
-
-.header-right {
-  padding-left: -12px;
-  margin-left: -15px;
-}
-
-img[src="Logo/ODDO Logo (15).png"] {
-    width: 14.5%;
-    margin-left: -8px;
-}
-
-} */
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
@@ -254,7 +207,7 @@ img[src="Logo/ODDO Logo (15).png"] {
     text-align: center;
     padding: 13px;
 
-    margin-left: 0px;
+    margin-left: 5px;
     /* margin-left: 20px; */
     /* border: 2px rgb(25, 146, 251); */
     /* background-color: rgb(25, 146, 251); */
@@ -268,6 +221,7 @@ img[src="Logo/ODDO Logo (15).png"] {
 
 .dropbtn {
   padding: 13px;
+  margin-left: 5px;
 }
 
 .dropdown-content {
@@ -281,7 +235,7 @@ img[src="Logo/ODDO Logo (15).png"] {
 
 img[src="Logo/ODDO Logo (15).png"] {
     width: 14.9%;
-    margin-left: 4px;
+    margin-left: 2px;
     /* Was at 15.2 last */
 }
 
