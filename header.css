@@ -216,8 +216,8 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
   .header-left {
   /* padding-left: -12px; */
   
-  margin-left: -7px;
-  /* was at -10 last */
+  margin-left: -6px;
+  /* was at -7 last */
 }
 
 .dropbtn {
