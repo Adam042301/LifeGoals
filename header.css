@@ -76,6 +76,7 @@
   text-align: right;
   margin-right: 12px;
   padding: 13px 20px 13px 20px;
+  padding-left: 12px;
   text-decoration: none;
   font-size: 20px;
   line-height: 25px;
@@ -199,6 +200,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
     /* margin-top: -110px; */
     position: fixed;
   }
+
   .header a {
     /* width: 345px; */
     /* display: block; */
@@ -210,6 +212,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
     /* border: 2px rgb(25, 146, 251); */
     /* background-color: rgb(25, 146, 251); */
   }
+
   .header-left {
   /* padding-left: -12px; */
   
