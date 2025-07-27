@@ -122,7 +122,9 @@ img[src="slideShowImages/iceRink.png"] {
   position: relative;
   float: center;
   margin-top: 110px;
-  padding: 20px 20px 0px 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 20px 18px 0px 18px;
   animation: fade-out linear;
   animation-timeline: view();
   animation-range: exit -100px;
@@ -133,17 +135,6 @@ img[src="slideShowImages/iceRink.png"] {
   to {opacity: 0;}
 }
 
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: rgb(197, 197, 197);
-  font-size: 12px;
-  font-weight: 600;
-  padding: 30px 12px;
-  position: absolute;
-  top: 5px;
-  left: 30px;
-}
 
 .active {
   background-color: #717171;

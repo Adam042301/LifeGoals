@@ -91,11 +91,12 @@
         .fancy {
             --offset: 7px;
             position: relative;
+            /* This is where to change the size of the about section for index page */
             height: 250px;
-            width: 97.4%;
-            width: auto;
+            width: 98.2%;
+            /* width: auto; */
             overflow: hidden;
-            margin: 20px 20px 1px 20px;
+            margin: 20px 20px 1px 18px;
             padding: 20px 20px 20px 20px;
             box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
             margin-bottom: 8px;

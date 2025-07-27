@@ -207,7 +207,8 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
     text-align: center;
     padding: 13px;
 
-    margin-left: 5px;
+    margin-left: 3px;
+    /* was 5 last */
     /* margin-left: 20px; */
     /* border: 2px rgb(25, 146, 251); */
     /* background-color: rgb(25, 146, 251); */
@@ -221,7 +222,8 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
 
 .dropbtn {
   padding: 13px;
-  margin-left: 5px;
+  margin-left: 3px;
+  /* was 5 last */
 }
 
 .dropdown-content {
