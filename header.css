@@ -204,7 +204,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
     /* width: 345px; */
     /* display: block; */
     text-align: center;
-    padding: 13px;
+    padding: 12px;
 
     margin-left: -6px;
 
@@ -218,7 +218,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
 }
 
 .dropbtn {
-  padding: 13px;
+  padding: 12px;
   margin-left: -6px;
 }
 
