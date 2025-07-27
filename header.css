@@ -64,7 +64,6 @@
   padding-left: 12px;
 }
 
-
 .dropbtn {
   background-color: rgb(25, 146, 251);
   color: white;
@@ -81,6 +80,7 @@
   font-size: 20px;
   line-height: 25px;
   font-family: sans-serif;
+  z-index: 100;
 }
 
 .dropdown {
@@ -148,7 +148,6 @@ img[src="Logo/ODDO Logo (15).png"] {
     width: 56px;
 
     object-fit: contain;
-
 
     position: relative;
     animation-name: moveLogo;
@@ -234,7 +233,8 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
 }
 
 img[src="Logo/ODDO Logo (15).png"] {
-    width: 15%; 
+    width: 15%;
+    margin-left: 5px;
     /* Was at 15.2 last */
 }
 
