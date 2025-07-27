@@ -206,10 +206,8 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
     text-align: center;
     padding: 13px;
 
-    margin-left: 0px;
-    /* margin-left: 20px; */
-    /* border: 2px rgb(25, 146, 251); */
-    /* background-color: rgb(25, 146, 251); */
+    margin-left: -4px;
+
   }
 
   .header-left {
@@ -221,6 +219,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
 
 .dropbtn {
   padding: 13px;
+  margin-left: -4px;
 }
 
 .dropdown-content {
@@ -234,7 +233,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
 
 img[src="Logo/ODDO Logo (15).png"] {
     width: 14.9%;
-    margin-left: 4px;
+    margin-left: -4px;
     /* Was at 15.2 last */
 }
 
