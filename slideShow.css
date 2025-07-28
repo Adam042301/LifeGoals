@@ -167,6 +167,8 @@ img[src="slideShowImages/iceRink.png"] {
     .slideshow-container {
         width: 102%;
         margin-left: -4px;
+        margin-top: 120px;
+        /* was 110px */
     }
     .text {
         font-size: 13px;
