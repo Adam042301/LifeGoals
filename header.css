@@ -11,15 +11,15 @@
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color:white;
+  background-color: white;
   padding: 30px 10px;
   font-family: sans-serif;
   margin-top: 0px;
   box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
   /* transition: 0.5s; */
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
-  margin-top: -110px;
+  margin-top: 43px;
   z-index: 100;
 }
 
@@ -82,6 +82,7 @@
   line-height: 25px;
   font-family: sans-serif;
   z-index: 100;
+  display: none;
 }
 
 .dropdown {
@@ -169,11 +170,18 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
 
 
 /* Tablet view Moving header down to allow room for navbar to take over space */
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1350px){
   .header {
     width: 100%;
+    margin-top: 0px;
     /* margin-top: 85px; */
   }
+  .dropbtn {
+  padding: 13px;
+  margin-left: 4px;
+  /* was 5 last */
+  display: block;
+}
 }
 
       /* Smallest (Iphone) Monitor Sizing */
@@ -182,7 +190,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
           width: 100%;
           z-index: 50;
           /* margin-top: -110px; */
-          position: fixed;
+          /* position: fixed; */
         }
         .header a {
           /* width: 440px; */
@@ -221,11 +229,6 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
   /* was at -7 last */
 }
 
-.dropbtn {
-  padding: 13px;
-  margin-left: 4px;
-  /* was 5 last */
-}
 
 .dropdown-content {
   z-index: 100;

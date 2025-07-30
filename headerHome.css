@@ -11,15 +11,15 @@
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color:white;
+  background-color: white;
   padding: 30px 10px;
   font-family: sans-serif;
   margin-top: 0px;
   box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
   /* transition: 0.5s; */
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
-  margin-top: -135px;
+  margin-top: 43px;
   z-index: 100;
 }
 
@@ -42,6 +42,7 @@
   font-family: sans-serif;
   border-radius: 40px;
   transition: 0.25s;
+  
 }
 
 /* Change the background color on mouse-over */
@@ -64,14 +65,12 @@
   padding-left: 12px;
 }
 
-
 .dropbtn {
   background-color: rgb(25, 146, 251);
   color: white;
   border: none;
   cursor: pointer;
   border-radius: 40px;
-  z-index: 90;
 
 
   text-align: right;
@@ -82,12 +81,14 @@
   font-size: 20px;
   line-height: 25px;
   font-family: sans-serif;
+  z-index: 100;
+  display: none;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
-  border-radius: 40px;
+  /* border-radius: 40px; */
 }
 
 .dropdown-content {
@@ -95,16 +96,15 @@
   position: fixed;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
   z-index: 50;
-  border-radius: 40px;
+  /* border-radius: 40px; */
 }
 
 .dropdown-content a {
   color: rgb(25, 146, 251);
   border-radius: 0px;
   background-color: #f9f9f9;
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
   /* margin-right: 1000px; */
@@ -132,7 +132,7 @@
 }
 
 .dropdown:hover .dropbtn {
-  background-color: rgb(44, 155, 253);
+  background-color: rgb(57, 162, 253);
   border-radius: 40px;
 }
 
@@ -149,7 +149,6 @@ img[src="Logo/ODDO Logo (15).png"] {
     width: 56px;
 
     object-fit: contain;
-
 
     position: relative;
     animation-name: moveLogo;
@@ -171,11 +170,19 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
 
 
 /* Tablet view Moving header down to allow room for navbar to take over space */
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1350px){
   .header {
     width: 100%;
+    margin-top: -130px;
     /* margin-top: 85px; */
+    position: fixed;
   }
+  .dropbtn {
+  padding: 13px;
+  margin-left: 4px;
+  /* was 5 last */
+  display: block;
+}
 }
 
       /* Smallest (Iphone) Monitor Sizing */
@@ -184,7 +191,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
           width: 100%;
           z-index: 50;
           /* margin-top: -110px; */
-          position: fixed;
+          /* position: fixed; */
         }
         .header a {
           /* width: 440px; */
@@ -201,6 +208,8 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
     z-index: 50;
     /* margin-top: -110px; */
     position: fixed;
+    margin-top: -145px;
+    /* was 110 then 120 now 115 Trying to fix space between slide show and header on mobile */
   }
   .header a {
     /* width: 345px; */
@@ -221,11 +230,6 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
   /* was at -7 last */
 }
 
-.dropbtn {
-  padding: 13px;
-  margin-left: 4px;
-  /* was 5 last */
-}
 
 .dropdown-content {
   z-index: 100;

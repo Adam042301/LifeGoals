@@ -222,7 +222,6 @@ img:hover[src="aboutImages/test.png"] {
     width: 98.1%;
     float: center;
     margin: 20px 0px 10px 18px;
-    margin-top: 134px;
   }
   .headerOne {
     font-size: 40px;
@@ -253,7 +252,6 @@ img:hover[src="aboutImages/test.png"] {
     width: auto;
     float: center;
     margin: 20px 18px 10px 18px;
-    margin-top: 135px;
   }
   .headerOne {
     font-size: 40px;
@@ -274,8 +272,11 @@ img:hover[src="aboutImages/test.png"] {
 }
 
 /* Tablet Sizing */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1350px) {
   /* Add media queries for responsivenes */
+    .about-section {
+      margin-top: 130px;
+  }
   .column {
     width: 50%;
     display: block;
@@ -320,6 +321,7 @@ img:hover[src="aboutImages/test.png"] {
   .about-section {
     width: 91%;
     height: 190px;
+    margin-top: 145px;
   }
   .headerOne {
     font-size: 35px;
