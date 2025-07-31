@@ -30,6 +30,7 @@ html {
   border-radius: 40px;
   margin: 20px 0px 10px 18px;
   box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+
   transition: 0.5s;
   animation: fade-out linear;
   animation-timeline: view();
@@ -52,6 +53,36 @@ html {
   margin-top: 10px;
   margin-bottom: -5px;
   padding: 0 6px;
+}
+
+.cardForImage {
+  box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+  border-radius: 40px;
+  margin-left: 18px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+img[src="Images/worldMap.png"] {
+  width: 100;
+  height: auto;
+
+  transition: none;
+  box-shadow: none;
+  border-radius: 40px;
+
+  animation: none;
+}
+
+img:hover[src="Images/worldMap.png"] {
+  transform: none;
+  box-shadow: none;
+}
+
+.cardForImage:hover {
+  transform: none;
+  box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
 }
 
 .card {
@@ -115,11 +146,11 @@ img {
   to {opacity: 0;}
 }
 
-  img:hover {
-    border-radius: 40px;
-    transform: scale(1.02);
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.534);
-  }
+img:hover {
+  border-radius: 40px;
+  transform: scale(1.02);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.534);
+}
 
 .container {
   padding: 20px;
