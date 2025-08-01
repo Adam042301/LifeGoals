@@ -62,7 +62,6 @@
 
 .header-right {
   float: left;
-  padding-left: 12px;
 }
 
 .dropbtn {
@@ -176,6 +175,9 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
     margin-top: -130px;
     /* margin-top: 85px; */
     position: fixed;
+  }
+  .header-right {
+    display: none;
   }
   .dropbtn {
   padding: 13px;
