@@ -169,7 +169,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
 
 
 /* Tablet view Moving header down to allow room for navbar to take over space */
-@media screen and (max-width: 1350px){
+@media screen and (max-width: 1150px){
   .header {
     width: 100%;
     margin-top: 0px;
