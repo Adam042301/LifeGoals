@@ -71,7 +71,6 @@
   cursor: pointer;
   border-radius: 40px;
 
-
   text-align: right;
   margin-right: 12px;
   padding: 13px 20px 13px 20px;
@@ -169,7 +168,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
 
 
 /* Tablet view Moving header down to allow room for navbar to take over space */
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 1200px){
   .header {
     width: 100%;
     margin-top: 0px;
@@ -179,8 +178,8 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
     display: none;
   }
   .dropbtn {
-  padding: 13px;
-  margin-left: 4px;
+  padding: 13px 20px 13px 20px;
+  /* margin-left: 4px; */
   /* was 5 last */
   display: block;
 }
@@ -226,9 +225,14 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
   }
   .header-left {
   /* padding-left: -12px; */
-  
   margin-left: -10px;
   /* was at -7 last */
+}
+
+  .dropbtn {
+  padding: 13px;
+  margin-left: 4px;
+  /* was 5 last */
 }
 
 
