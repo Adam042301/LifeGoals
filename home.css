@@ -55,27 +55,44 @@ html {
   padding: 0 6px;
 }
 
+
 .cardForImage {
   box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
   border-radius: 40px;
   margin-left: 18px;
-  margin-right: 20px;
-  margin-top: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
   margin-bottom: 5px;
+  width: 48.2%;
+  height: auto;
+  /* padding: 10px; */
+  display: inline-block;
 }
 
-img[src="Images/worldMap.png"] {
-  width: 100;
+img[src="mapImages/currentMap.png"] {
+  width: 100%;
   height: auto;
-
   transition: none;
   box-shadow: none;
   border-radius: 40px;
-
   animation: none;
 }
 
-img:hover[src="Images/worldMap.png"] {
+img:hover[src="mapImages/currentMap.png"] {
+  transform: none;
+  box-shadow: none;
+}
+
+img[src="mapImages/futureMap.png"] {
+  width: 100%;
+  height: auto;
+  transition: none;
+  box-shadow: none;
+  border-radius: 40px;
+  animation: none;
+}
+
+img:hover[src="mapImages/futureMap.png"] {
   transform: none;
   box-shadow: none;
 }
@@ -133,7 +150,7 @@ img {
   border-radius: 40px 40px 0px 0px; 
   height: 275px;
   transition: 0.5s;
-  box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+  /* box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534); */
   object-fit: cover;
 
   animation: fade-out linear;
@@ -149,7 +166,8 @@ img {
 img:hover {
   border-radius: 40px;
   transform: scale(1.02);
-  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.534);
+  /* box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.534); */
+  box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
 }
 
 .container {
@@ -273,7 +291,17 @@ img:hover[src="aboutImages/test.png"] {
   }
 }
 
+@media screen and (max-width: 1800px) {
+  .cardForImage {
+    width: 48%;
+}
+  img[src="mapImages/currentMap.png"] {
 
+}
+  img[src="mapImages/futureMap.png"] {
+
+}
+}
 
       /* MAC Screen Sizing */
 @media screen and (max-width: 1600px) {
@@ -300,6 +328,15 @@ img:hover[src="aboutImages/test.png"] {
   img {
     height: 250px;
   }
+  .cardForImage {
+    width: 47.7%;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .cardForImage {
+    width: 47%;
+}
 }
 
 /* Tablet Sizing */
@@ -315,6 +352,15 @@ img:hover[src="aboutImages/test.png"] {
   img {
     height: 200px;
   }
+    .cardForImage {
+    width: 46.5%;
+}
+}
+
+@media screen and (max-width: 1000px) {
+  .cardForImage {
+    width: 46%;
+}
 }
 
 
@@ -342,6 +388,9 @@ img:hover[src="aboutImages/test.png"] {
   img {
     height: 200px;
   }
+    .cardForImage {
+    width: 92%;
+}
 }
 
 
@@ -379,10 +428,17 @@ img:hover[src="aboutImages/test.png"] {
     /* was 13 last */
   }
   .cardForImage {
-    height: 150px;
+    width: 440px;
+    height: 240px;
+    padding: 10px;
 }
-img[src="Images/worldMap.png"] {
-  margin-top: 30px;
+  img[src="mapImages/currentMap.png"] {
+  width: 100%;
+  height: auto;
+}
+  img[src="mapImages/futureMap.png"] {
+  width: 100%;
+  height: auto;
 }
 }
 
