@@ -63,10 +63,10 @@ body {
     to {opacity: 0;}
   }
 
-  iframe:hover {
+  /* iframe:hover {
     border-radius: 40px;
     transform: scale(1.02);
-  }
+  } */
   
   img {
     border-radius: 40px 40px 0px 0px; 
