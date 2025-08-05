@@ -1,7 +1,22 @@
-
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
+.mySlides {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+  z-index: 0;
+}
+
+.mySlides.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+img {vertical-align: middle;}
+
 
 img[src="slideShowImages/skyDive.png"] {
     animation: shake 0s;
@@ -115,60 +130,80 @@ img[src="slideShowImages/iceRink.png"] {
     transform: none;
 }
 
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 40px;
+  z-index: 100;
+}
+
+.next {
+  right: 15px;
+  border-radius: 40px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(65, 65, 65, 0.8);
+}
+
 /* Slideshow container */
 .slideshow-container {
   /* max-width: 2100px; */
   width: auto;
   position: relative;
   float: center;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 20px 18px 0px 18px;
-  animation: fade-out linear;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 18px;
+  padding: 0px 18px 300px 18px;
+  /* overflow: hidden; */
+  /* margin: auto; */
+  /* animation: fade-out linear;
   animation-timeline: view();
-  animation-range: exit -100px;
+  animation-range: exit -100px; */
 }
 
-@keyframes fade-out {
+/* @keyframes fade-out {
   from {opacity: 1;}
   to {opacity: 0;}
+} */
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: none;
+  /* display: inline-block; */
+  transition: background-color 0.6s ease;
 }
 
-
-.active {
+/* .active {
   background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fadeIn;
-  animation-duration: 2s;
-}
-
-@keyframes fadeIn {
-  from {opacity: 0.5} 
-  to {opacity: 1}
-}
-
-.fadeOut {
-    animation-name: fadeOut;
-    animation-delay: 2.5s;
-    animation-duration: 4s;
-}
-
-@keyframes fadeOut {
-    from {opacity: 1}
-    to {opacity: 0}
-}
+} */
 
 
 @media screen and (max-width: 500px) {
     .slideshow-container {
-        width: 102%;
-        margin-left: -4px;
-        margin-top: 115px;
-        /* was 110px then 120*/
+        /* width: 102%;
+        margin-left: -4px; */
+        margin-top: 138px;
+        padding-bottom: 130px;
     }
     .text {
         font-size: 13px;

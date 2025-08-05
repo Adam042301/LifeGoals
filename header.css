@@ -208,7 +208,7 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
     z-index: 50;
     /* margin-top: -110px; */
     position: fixed;
-    margin-top: -115px;
+    margin-top: -138px;
     /* was 110 then 120 now 115 Trying to fix space between slide show and header on mobile */
   }
   .header a {

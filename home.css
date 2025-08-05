@@ -1,3 +1,53 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  /* background: linear-gradient(to bottom, #e7e7e7, #c9c9c9); */
+}
+
+#rain-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  margin: -10px 0 0;
+  z-index: 0;
+}
+
+.raindrop {
+  position: absolute;
+  width: 3px;
+  height: 10px;
+  background: rgb(42, 152, 255);
+  animation: fall linear infinite;
+  transition: 0.25s;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(150vh);
+  }
+}
+
+/* #cursor {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+  z-index: 1000;
+  transition: transform 0.1s ease-out;
+} */
+
+
+
+
 body {
   font-family: sans-serif;
   /* font-family:  StudioTypo; */
