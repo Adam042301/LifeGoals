@@ -200,9 +200,8 @@ img[src="slideShowImages/iceRink.png"] {
 
 @media screen and (max-width: 500px) {
     .slideshow-container {
-        /* width: 102%;
-        margin-left: -4px; */
-        margin-top: 138px;
+        margin-left: 17px;
+        margin-top: 134px;
         padding-bottom: 130px;
     }
     .text {
