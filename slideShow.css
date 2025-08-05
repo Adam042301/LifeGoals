@@ -145,7 +145,7 @@ img[src="slideShowImages/iceRink.png"] {
   user-select: none;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 40px;
-  z-index: 100;
+  z-index: 10;
 }
 
 .next {
