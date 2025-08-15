@@ -23,7 +23,7 @@
   }
   
   #myBar {
-    width: 41%;
+    width: 42%;
     height: 30px;
     /* background-color: rgb(214, 214, 214); */
     background-color: rgb(25, 146, 251);
@@ -40,4 +40,4 @@
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
   } */
 
-  /* Currently 8/1/2025 there are 49/119 goals complete */
+/* Currently 8/15/2025 there are 50/119 goals complete and 69 uncomplete */
