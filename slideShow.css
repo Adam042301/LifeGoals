@@ -34,7 +34,31 @@ img[src="slideShowImages/lasVegasStrip.png"] {
     transform: none;
 }
 
-img[src="slideShowImages/capitalBuilding.png"] {
+img[src="slideShowImages/UFCLong.jpg"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    transform: none;
+}
+
+/* img[src="slideShowImages/capitalBuilding.png"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    transform: none;
+} */
+
+img[src="slideShowImages/LondonLong.jpg"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    transform: none;
+}
+
+img[src="slideShowImages/LockBridge.jpg"] {
     animation: shake 0s;
     opacity: 1;
     border-radius: 40px;
