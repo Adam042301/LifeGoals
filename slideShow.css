@@ -261,6 +261,20 @@ img[src="slideShowImages/iceRink.png"] {
         height: 130px;
         /* border: 3px solid rgb(204, 204, 204); */
     }
+
+    img[src="slideShowImages/LondonLong.jpg"] {
+        height: 130px;
+        /* border: 3px solid rgb(204, 204, 204); */
+    }
+    img[src="slideShowImages/UFCLong.jpg"]{
+        height: 130px;
+        /* border: 3px solid rgb(204, 204, 204); */
+    }
+    img[src="slideShowImages/LockBridge.jpg"]{
+        height: 130px;
+        /* border: 3px solid rgb(204, 204, 204); */
+    }
+
     img[src="slideShowImages/capitalBuilding.png"] {
         height: 130px;
         /* border: 3px solid rgb(204, 204, 204); */
