@@ -114,6 +114,14 @@ img[src="slideShowImages/PCBuild.png"] {
     transform: none;
 }
 
+img[src="slideShowImages/burningFoot.jpeg"] {
+    animation: shake 0s;
+    opacity: 1;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.534);
+    transform: none;
+}
+
 img[src="slideShowImages/fish.png"] {
     animation: shake 0s;
     opacity: 1;
@@ -261,7 +269,10 @@ img[src="slideShowImages/iceRink.png"] {
         height: 130px;
         /* border: 3px solid rgb(204, 204, 204); */
     }
-
+    img[src="slideShowImages/burningFoot.jpeg"]{
+        height: 130px;
+        /* border: 3px solid rgb(204, 204, 204); */
+    }
     img[src="slideShowImages/LondonLong.jpg"] {
         height: 130px;
         /* border: 3px solid rgb(204, 204, 204); */
