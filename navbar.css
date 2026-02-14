@@ -39,11 +39,11 @@
 }
 
 /* Change background on mouse-over */
-.navbar a:hover {
+/* .navbar a:hover {
   color: rgb(138, 137, 137);
   transform: scale(1.1);
   cursor: pointer;
-}
+} */
 
 
 
