@@ -171,8 +171,9 @@ img:hover[src="Logo/ODDO Logo (15).png"] {
 @media screen and (max-width: 1200px){
   .header {
     width: 100%;
-    margin-top: 0px;
+    margin-top: -130px;
     /* margin-top: 85px; */
+    position: fixed;
   }
   .header-right {
     display: none;
