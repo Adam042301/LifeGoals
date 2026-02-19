@@ -81,10 +81,10 @@ body {
     to {opacity: 0;}
   }
   
-  .card:hover {
+  /* .card:hover {
     transform: scale(1.004);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.534);
-  }
+  } */
   
   iframe {
     border-radius: 40px 40px 0px 0px; 
@@ -141,7 +141,7 @@ body {
     font-family: sans-serif;
     margin-top: 15px;
   }
-  
+
   .title {
     color: rgb(161, 161, 161);
     padding-bottom: 2px;
