@@ -182,12 +182,10 @@
     }
     .fancy label{
         color: black;
-        margin-left: 49px;
         margin-top: 10px;
-        text-align: center;
     }
     .headerOne{
-        margin: 50px 20px 0px 2px;
-        text-align: center;
+        margin: 50px 0px 0px 0px;
+        width: 95%;
     }
 }
