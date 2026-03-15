@@ -188,8 +188,8 @@
     }
     .headerOne{
         margin: 50px 0px 0px 0px;
-        margin-top: 20px;
-        width: 50%;
+        margin-top: 30px;
+        width: 75%;
         /* Was at 95% before for width */
     }
 }
